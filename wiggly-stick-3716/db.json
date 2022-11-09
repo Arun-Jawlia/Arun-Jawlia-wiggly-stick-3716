@@ -1,0 +1,328 @@
+{
+
+ "products":[
+  {
+    "id": "200",
+    "path": "SEPHORA / CLARINS / Women / Beauty / ",
+    "cur": "Moisturizer",
+    "title": "Extra-Firming Day Comfort Cream - Dry Skin",
+    "brand": "CLARINS",
+    "image1": "https://cdn06.nnnow.com/web-images/large/styles/LOFPIPESQ6L/1589971882298/1.jpg",
+    "image2": "https://cdn13.nnnow.com/web-images/large/styles/LOFPIPESQ6L/1589971882304/2.jpg",
+    "image3": "https://cdn05.nnnow.com/web-images/large/styles/LOFPIPESQ6L/1618918778325/50.jpg",
+    "color": [
+      "rgb(253,223,199)"
+    ],
+    "size": [
+      "50 ML"
+    ],
+    "price": 5600
+  },
+  {
+    "id": "201",
+    "path": "SEPHORA / CLARINS / Women / Beauty / ",
+    "cur": "Moisturizer",
+    "title": "UV Plus SPF50/PA++++ Sunscreen - Pink",
+    "brand": "CLARINS",
+    "image1": "https://cdn15.nnnow.com/web-images/large/styles/CIJN5OVIGSD/1589972320734/1.jpg",
+    "image2": "https://cdn19.nnnow.com/web-images/large/styles/CIJN5OVIGSD/1589972320735/2.jpg",
+    "image3": "https://cdn17.nnnow.com/web-images/large/styles/CIJN5OVIGSD/1589972320736/3.jpg",
+    "color": [
+      "rgb(252,232,220)"
+    ],
+    "size": [
+      "30 ML"
+    ],
+    "price": 2750
+  },
+  {
+    "id": "202",
+    "path": "SEPHORA / CLARINS / Women / Beauty / ",
+    "cur": "Moisturizer",
+    "title": "Hydra Essentiel Moisturizes And Quenches Silky Cream - Normal To Dry Skin",
+    "brand": "CLARINS",
+    "image1": "https://cdn19.nnnow.com/web-images/large/styles/2LJ12O78WZ7/1594031464988/1.jpg",
+    "image2": "https://cdn00.nnnow.com/web-images/large/styles/2LJ12O78WZ7/1594031464988/2.jpg",
+    "image3": "https://cdn10.nnnow.com/web-images/large/styles/2LJ12O78WZ7/1618918773846/50.jpg",
+    "color": [
+      "rgb(244,244,244)"
+    ],
+    "size": [
+      "15 ML"
+    ],
+    "price": 1980
+  },
+  {
+    "id": "203",
+    "path": "SEPHORA / CLARINS / Women / Beauty / ",
+    "cur": "Moisturizer",
+    "title": "Hydra Essentiel Moisturizes And Quenches Emulsion - All Skin Types",
+    "brand": "CLARINS",
+    "image1": "https://cdn07.nnnow.com/web-images/large/styles/7PWTS6YKAIF/1594031464962/1.jpg",
+    "image2": "https://cdn19.nnnow.com/web-images/large/styles/7PWTS6YKAIF/1618918773595/50.jpg",
+    "image3": "Not Available",
+    "color": [
+      "rgb(244,244,244)"
+    ],
+    "size": [
+      "50 ML"
+    ],
+    "price": 3450
+  },
+  {
+    "id": "204",
+    "path": "SEPHORA / CLARINS / Women / Beauty / ",
+    "cur": "Moisturizer",
+    "title": "BB Beauty Perfector SPF 30/PA+++ - 02 Natural",
+    "brand": "CLARINS",
+    "image1": "https://cdn08.nnnow.com/web-images/large/styles/OH56DB13XZX/1594031464957/1.jpg",
+    "image2": "https://cdn07.nnnow.com/web-images/large/styles/OH56DB13XZX/1594031464957/2.jpg",
+    "image3": "https://cdn15.nnnow.com/web-images/preview/styles/OH56DB13XZX/1618918778427/50.jpg",
+    "color": [
+      "rgb(207,166,123)"
+    ],
+    "size": [
+      "30 ML"
+    ],
+    "price": 2850
+  },
+  {
+    "id": "205",
+    "path": "SEPHORA / CLARINS / Women / Beauty / ",
+    "cur": "Moisturizer",
+    "title": "Super Moisture Balm",
+    "brand": "CLARINS",
+    "image1": "https://cdn14.nnnow.com/web-images/large/styles/PN6C0CKP89A/1589971599297/1.jpg",
+    "image2": "https://cdn12.nnnow.com/web-images/large/styles/PN6C0CKP89A/1589971599298/2.jpg",
+    "image3": "https://cdn11.nnnow.com/web-images/large/styles/PN6C0CKP89A/1589971599298/3.jpg",
+    "color": [
+      "rgb(244,244,244)"
+    ],
+    "size": [
+      "50 ML"
+    ],
+    "price": 2800
+  },
+  {
+    "id": "210",
+    "path": "SEPHORA / FOREST ESSENTIALS / Home / Skincare / ",
+    "cur": "Moisturizer",
+    "title": "Light Hydrating Facial Gel - Pure Rosewater",
+    "brand": "FOREST ESSENTIALS",
+    "image1": "https://cdn04.nnnow.com/web-images/large/styles/HDK6RRWVMD2/1592914538314/1.jpg",
+    "image2": "Not Available",
+    "image3": "Not Available",
+    "color": [
+      "rgb(244,244,244)"
+    ],
+    "size": [
+      "50 gm"
+    ],
+    "price": 1450
+  },
+  {
+    "id": "211",
+    "path": "SEPHORA / FOREST ESSENTIALS / Home / Skincare / ",
+    "cur": "Moisturizer",
+    "title": "Light Day Lotion With Lavender And Neroli - Normal Towards Oily Skin",
+    "brand": "FOREST ESSENTIALS",
+    "image1": "https://cdn16.nnnow.com/web-images/large/styles/YXY8PHL6GLX/1487240531815/1.jpg",
+    "image2": "https://cdn17.nnnow.com/web-images/large/styles/YXY8PHL6GLX/1487240531817/2.jpg",
+    "image3": "Not Available",
+    "color": [
+      "rgb(244,244,244)"
+    ],
+    "size": [
+      "40 ML"
+    ],
+    "price": 2025
+  },
+  {
+    "id": "212",
+    "path": "SEPHORA / FOREST ESSENTIALS / Home / Skincare / ",
+    "cur": "Moisturizer",
+    "title": "Facial Tonic Mist - Bela",
+    "brand": "FOREST ESSENTIALS",
+    "image1": "https://cdn04.nnnow.com/web-images/large/styles/K6ME556V4CR/1612251833198/1.jpg",
+    "image2": "https://cdn04.nnnow.com/web-images/large/styles/K6ME556V4CR/1612251833197/2.jpg",
+    "image3": "https://cdn05.nnnow.com/web-images/large/styles/K6ME556V4CR/1612251833197/3.jpg",
+    "color": [
+      "rgb(244,244,244)"
+    ],
+    "size": [
+      "130 ML"
+    ],
+    "price": 1150
+  },
+  {
+    "id": "213",
+    "path": "SEPHORA / FOREST ESSENTIALS / Home / Skincare / ",
+    "cur": "Moisturizer",
+    "title": "Light Day Lotion With Madurai Jasmine And Mogra - Normal And Combination Skin",
+    "brand": "FOREST ESSENTIALS",
+    "image1": "https://cdn14.nnnow.com/web-images/large/styles/HBVVG1KR385/1612250784265/1.jpg",
+    "image2": "https://cdn01.nnnow.com/web-images/large/styles/HBVVG1KR385/1612250784263/2.jpg",
+    "image3": "https://cdn13.nnnow.com/web-images/large/styles/HBVVG1KR385/1612250784264/3.jpg",
+    "color": [
+      "rgb(244,244,244)"
+    ],
+    "size": [
+      "40 ML"
+    ],
+    "price": 2025
+  },
+  {
+    "id": "214",
+    "path": "SEPHORA / FOREST ESSENTIALS / Home / Skincare / ",
+    "cur": "Moisturizer",
+    "title": "Facial Tonic Mist - Bela",
+    "brand": "FOREST ESSENTIALS",
+    "image1": "https://cdn11.nnnow.com/web-images/large/styles/X4IKS7LVNN6/1588586627658/1.jpg",
+    "image2": "Not Available",
+    "image3": "Not Available",
+    "color": [
+      "rgb(244,244,244)"
+    ],
+    "size": [
+      "100 ML"
+    ],
+    "price": 750
+  },
+  {
+    "id": "215",
+    "path": "SEPHORA / FOREST ESSENTIALS / Home / Skincare / ",
+    "cur": "Moisturizer",
+    "title": "Sanjeevani Beauty Elixir",
+    "brand": "FOREST ESSENTIALS",
+    "image1": "https://cdn06.nnnow.com/web-images/large/styles/U2DNRKQ0GA1/1614353172661/1.jpg",
+    "image2": "https://cdn09.nnnow.com/web-images/large/styles/U2DNRKQ0GA1/1614353172658/2.jpg",
+    "image3": "https://cdn11.nnnow.com/web-images/large/styles/U2DNRKQ0GA1/1614353172660/3.jpg",
+    "color": [
+      "rgb(244,244,244)"
+    ],
+    "size": [
+      "30 gm"
+    ],
+    "price": 3625
+  },
+  {
+    "id": "220",
+    "path": "SEPHORA / SHISEIDO / Women / Beauty / ",
+    "cur": "Moisturizer",
+    "title": "Luminizing Surge Moisturizer",
+    "brand": "SHISEIDO",
+    "image1": "https://cdn09.nnnow.com/web-images/large/styles/JXGUBJ8P87J/1519035539735/1.jpg",
+    "image2": "https://cdn13.nnnow.com/web-images/large/styles/JXGUBJ8P87J/1519035539736/2.jpg",
+    "image3": "https://cdn05.nnnow.com/web-images/large/styles/JXGUBJ8P87J/1618914271048/50.jpg",
+    "color": [
+      "rgb(246,198,221)"
+    ],
+    "size": [
+      "75 ML"
+    ],
+    "price": 4200
+  },
+  {
+    "id": "221",
+    "path": "SEPHORA / SHISEIDO / Women / Beauty / ",
+    "cur": "Moisturizer",
+    "title": "Waso Color-Smart Day Time Moisturizer Oil-Free",
+    "brand": "SHISEIDO",
+    "image1": "https://cdn14.nnnow.com/web-images/large/styles/0235QYQLU6R/1535611149325/1.jpg",
+    "image2": "https://cdn12.nnnow.com/web-images/large/styles/0235QYQLU6R/1535611149326/2.jpg",
+    "image3": "https://cdn09.nnnow.com/web-images/large/styles/0235QYQLU6R/1618914260104/50.jpg",
+    "color": [
+      "rgb(244,244,244)"
+    ],
+    "size": [
+      "50 ML"
+    ],
+    "price": 2700
+  },
+  {
+    "id": "222",
+    "path": "SEPHORA / SHISEIDO / Women / Beauty / ",
+    "cur": "Moisturizer",
+    "title": "Benefiance Wrinkle Resist 24 Balancing Softener Lotion - Normal To Dry Skin",
+    "brand": "SHISEIDO",
+    "image1": "https://cdn12.nnnow.com/web-images/large/styles/3PIIJQS1EJR/1495791489684/1.jpg",
+    "image2": "https://cdn10.nnnow.com/web-images/large/styles/3PIIJQS1EJR/1495791489685/2.jpg",
+    "image3": "https://cdn19.nnnow.com/web-images/large/styles/3PIIJQS1EJR/1618914211392/50.jpg",
+    "color": [
+      "rgb(244,244,244)"
+    ],
+    "size": [
+      "150 ML"
+    ],
+    "price": 3350
+  },
+  {
+    "id": "223",
+    "path": "SEPHORA / SHISEIDO / Women / Beauty / ",
+    "cur": "Moisturizer",
+    "title": "Essential Energy Moisturizing Gel Cream",
+    "brand": "SHISEIDO",
+    "image1": "https://cdn13.nnnow.com/web-images/large/styles/LIZSZHSZIRA/1542965062675/1.jpg",
+    "image2": "https://cdn17.nnnow.com/web-images/large/styles/LIZSZHSZIRA/1618914283937/50.jpg",
+    "image3": "Not Available",
+    "color": [
+      "244,244,244)"
+    ],
+    "size": [
+      "50 ML"
+    ],
+    "price": 3700
+  },
+  {
+    "id": "224",
+    "path": "SEPHORA / SHISEIDO / Women / Beauty / ",
+    "cur": "Moisturizer",
+    "title": "Treatment Softener Enriched Moisturiser",
+    "brand": "SHISEIDO",
+    "image1": "https://cdn11.nnnow.com/web-images/large/styles/NCNYKTBQ3CM/1593686852308/1.jpg",
+    "image2": "https://cdn05.nnnow.com/web-images/large/styles/NCNYKTBQ3CM/1593686852307/2.jpg",
+    "image3": "https://cdn09.nnnow.com/web-images/large/styles/NCNYKTBQ3CM/1593686852308/3.jpg",
+    "color": [
+      "rgb(244,244,244)"
+    ],
+    "size": [
+      "150 ML"
+    ],
+    "price": 3600
+  },
+  {
+    "id": "225",
+    "path": "SEPHORA / SHISEIDO / Women / Beauty / ",
+    "cur": "Moisturizer",
+    "title": "Waso Fresh Jelly Lotion",
+    "brand": "SHISEIDO",
+    "image1": "https://cdn07.nnnow.com/web-images/large/styles/QFH4QNAOP8R/1535611149409/1.jpg",
+    "image2": "https://cdn12.nnnow.com/web-images/large/styles/QFH4QNAOP8R/1535611149410/2.jpg",
+    "image3": "https://cdn11.nnnow.com/web-images/large/styles/QFH4QNAOP8R/1618914427860/50.jpg",
+    "color": [
+      "rgb(213,224,236)"
+    ],
+    "size": [
+      "150 ML"
+    ],
+    "price": 2300
+  },
+  {
+    "id": "226",
+    "path": "SEPHORA / SHISEIDO / Women / Beauty / ",
+    "cur": "Moisturizer",
+    "title": "Essential Energy Day Emulsion",
+    "brand": "SHISEIDO",
+    "image1": "https://cdn10.nnnow.com/web-images/large/styles/HUGEDZ5AGW4/1593683099976/1.jpg",
+    "image2": "https://cdn18.nnnow.com/web-images/large/styles/HUGEDZ5AGW4/1618914271111/50.jpg",
+    "image3": "Not Available",
+    "color": [
+      "rgb(244,244,244)"
+    ],
+    "size": [
+      "75 ML"
+    ],
+    "price": 3700
+  }
+  ]
+}
