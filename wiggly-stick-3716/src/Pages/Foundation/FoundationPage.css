@@ -1,0 +1,46 @@
+.main-div{
+    border:1px solid;
+    height: 100vh;
+    display: flex;
+}
+.filtering{
+    width: 21%;
+    height: 100%;
+    border: 2px solid red;
+}
+.product-data-main{
+    width: 100%;
+    border: 3px solid green;
+}
+.sorting{  
+    display: flex;
+    width:100%;
+   height: 20vh;
+    border: 4px solid blue; 
+    justify-content: flex-end;
+}
+.sort{
+    margin-top: 2rem;
+    margin-bottom: 2rem;    
+}
+select{
+    padding:10px 30px;
+    border: 2px solid;
+}
+.filterby>div{
+    margin-bottom: 30px;
+}
+
+.filter-option{
+display: flex;
+padding:7px 10px;
+border: 2px solid;
+justify-content: space-between;
+
+}
+
+.product-data{
+  width:100%;
+   height: 85%;
+    border: 4px solid red;   
+}
