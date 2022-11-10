@@ -1,5 +1,6 @@
 
 import './App.css';
+import FoundationCard from './Components/Foundation/FoundationCard';
 import FoundationPage from './Pages/Foundation/FoundationPage';
 
 function App() {
