@@ -1,5 +1,6 @@
 import React from "react";
 import "./checkout.css";
+import myLogo from "../../assets/beautyHubLogo.png";
 
 const Checkout = () => {
   return (
@@ -8,10 +9,7 @@ const Checkout = () => {
 
       <div className="checkout_top">
         <div>
-          <img
-            src="https://cdn07.nnnow.com/web-images/master/navtree_metaData/59b2657be4b0e6b6e16a9180/1548053082431/se.png"
-            alt=""
-          />
+          <img style={{ backgroundColor: "white" }} src={myLogo} alt="myLogo" />
         </div>
         <div className="checkout_top_acc">
           <span>Arun</span>
@@ -110,7 +108,7 @@ const Checkout = () => {
 
           {/* Price container */}
           <div className="checkout_price_data">
-            <div className="flex">
+            <div className="flex promoCode">
               <div>
                 <i class="bx bxs-discount"></i>
               </div>
@@ -142,16 +140,36 @@ const Checkout = () => {
                 <div>Rs 0</div>
               </span>
 
-              <div style={{height:'2px', backgroundColor:'black', marginTop:'5px', marginBottom:'5px'}}></div>
+              <div
+                style={{
+                  height: "2px",
+                  backgroundColor: "black",
+                  marginTop: "5px",
+                  marginBottom: "5px",
+                }}
+              ></div>
 
               <span className="flex">
                 <div>Total</div>
                 <div>Rs 1,000</div>
               </span>
-
-
             </div>
             <div className="price_continue">CONTINUE</div>
+          </div>
+        </div>
+      </div>
+
+      <div className="checkout_Footer">
+        <div className="checkout_footer_main">
+          <div className="checkout_footer_left">
+            <img src="https://static.nnnow.com/Verified_by_Visa_logo.png" alt="" />
+            <img src="https://static.nnnow.com/verified-mastercard.png" alt="" />
+            <img src="https://static.nnnow.com/verified-pci.png" alt="" />
+            <img src="https://static.nnnow.com/AMEX-safekey.png" alt="" />
+          
+          </div>
+          <div className="checkout_footer_right">
+            <p> © 2022 NNNOW  |  Privacy Policy   |    Terms & Condition</p>
           </div>
         </div>
       </div>

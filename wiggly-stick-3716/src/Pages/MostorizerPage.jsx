@@ -3,9 +3,9 @@ import { useSearchParams } from 'react-router-dom';
 import axios from "axios";
 import { Box } from '@chakra-ui/react';
 import "./Mostorizer.css"
-import HoverEffect from '../Components/HoverEffect';
-import Product_Page_Footer from '../Components/Product_Page_Footer';
-import Filtersort from '../Components/Filtersort';
+import HoverEffect from '../components/HoverEffect';
+import Product_Page_Footer from '../components/Product_Page_Footer';
+import Filtersort from '../components/Filtersort';
 
 function MostorizerPage() {
 
