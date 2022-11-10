@@ -1,0 +1,278 @@
+/* NAVBAR CSS */
+
+
+
+/* * {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    font-family: sans-serif;
+} */
+
+/* Nav bar  */
+#navbaruppersection {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 13px;
+    color: rgb(85, 80, 80);
+    background-color: rgb(234, 241, 241);
+
+}
+
+#logo {
+    height: 45px;
+    margin-left: -50px;
+}
+
+
+#top-right-corner {
+    display: flex;
+    cursor: pointer;
+
+}
+
+#centertext {
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+}
+
+#centertext>span>img {
+    height: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+
+#top-right-corner>div {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 13px;
+}
+
+#top-right-corner>span {
+    color: rgb(162, 158, 158);
+    font-size: 14px;
+}
+
+
+
+
+/* Store locator */
+#storelocator {
+    margin-left: -90px;
+    cursor: pointer;
+}
+
+#headingsephora {
+    display: flex;
+    height: 60px;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+#headingsephora>div:last-child {
+    display: flex;
+    cursor: pointer;
+
+
+}
+
+#headingsephora>div:first-child{
+    text-decoration: underline;
+}
+
+
+
+
+
+#headingsephora>div:nth-child(3)>div {
+    display: flex;
+    justify-content: center;
+}
+
+.material-symbols-outlined {
+    margin-left: 0px;
+    margin-right: 15px;
+    color: gray;
+}
+
+.icondivider {
+    font-size: 20px;
+    color: gray;
+}
+
+#headingsephora>div:last-child>div {
+    margin-left: 20px;
+}
+
+#sephora {
+    height: 100px;
+    width: 100%;
+}
+
+/* Top Left search bar */
+#searchbar {
+    border: none;
+    padding: 5px;
+    outline: none;
+    font-size: 15px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+#searchicon {
+    height: 20px;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+
+
+/* Categories */
+
+#categories {
+    display: grid;
+    width: 85%;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: auto;
+    margin: auto;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: -8px;
+}
+
+#categories>div {
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 5px;
+
+}
+
+
+
+#categories>div:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+#product {
+    margin: auto;
+}
+
+
+#categories>div:nth-child(1):hover {
+    box-shadow: none;
+    color: rgb(132, 127, 127);
+}
+
+
+
+/* Drop down effect in categories */
+
+
+
+.drop-down {
+    position: relative;
+    display: inline-block;
+
+}
+
+
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    line-height: 20px;
+    margin-top: 11px;
+    margin-left: -100px;
+    min-width: auto;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+
+
+
+}
+
+
+
+.drop-down:hover .dropdown-content {
+
+    display: block;
+}
+
+
+.dropdownflex {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    cursor: pointer;
+}
+
+.dropdownflex>div {
+    /* border: 1px solid black; */
+    width: 190px;
+    height: auto;
+    padding: 20px;
+    margin: 10px;
+}
+
+.dropdownflex>div>div {
+    font-size: 11px;
+    color: black;
+    font-weight: 100;
+}
+
+.dropdownflex>div>h3 {
+    font-size: 12px;
+}
+
+.dropdownflex>div>h3:hover {
+    color: gray;
+}
+
+.dropdownflex>div>div:hover {
+    color: rgb(223, 214, 214);
+}
+
+#productpage {
+    color: black;
+    text-decoration: none;
+}
+
+#productpage:hover{
+    color: rgb(223, 214, 214);
+}
+
+
+/* Horizontal Div */
+#hrdiv {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: -15px;
+    border: 1px solid rgb(235, 229, 229);
+    color: rgb(235, 229, 229);
+}
+
+
+
+/* Navbar end */
