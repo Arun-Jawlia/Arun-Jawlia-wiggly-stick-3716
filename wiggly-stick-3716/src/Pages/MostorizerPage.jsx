@@ -14,9 +14,6 @@ import {
     AccordionPanel,
     AccordionIcon,
   } from '@chakra-ui/react'
-import HoverEffect from '../components/HoverEffect';
-import Product_Page_Footer from '../components/Product_Page_Footer';
-import Filtersort from '../components/Filtersort';
 function MostorizerPage() {
     const data = useSelector((state) => state.productData)
      const dispatch = useDispatch();

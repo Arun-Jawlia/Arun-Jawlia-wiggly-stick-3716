@@ -1,6 +1,5 @@
 import React from 'react';
 import "./Ownfooter.css";
-import { Box, Container, HStack } from '@chakra-ui/react'
 function Product_Page_Footer() {
   return (
      <div style={{color:"gray",textAlign:"center",width:"86%",margin:"auto",lineHeight:"230%"}}>

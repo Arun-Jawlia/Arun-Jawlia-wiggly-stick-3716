@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box } from '@chakra-ui/react';
-import { BsBag,BsHeart,BsHeartFill } from "react-icons/bs";
+import { BsBag,BsHeartFill } from "react-icons/bs";
 import './HoverEffect.css';
 function HoverEffect({image}) {
   return (
@@ -10,7 +10,7 @@ function HoverEffect({image}) {
 			<div className="card">
 				<div className="content">
 					<div className="imgBx">
-						<img src={image}/>
+						<img src={image} alt="this is a image"/>
 					</div>
 					
 				</div>
