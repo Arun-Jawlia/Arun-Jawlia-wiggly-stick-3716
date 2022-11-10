@@ -3,14 +3,8 @@ import "./Ownfooter.css";
 import { Box, Container, HStack } from '@chakra-ui/react'
 function Product_Page_Footer() {
   return (
-     <div style={{color:"gray",textAlign:"center",width:"86%",margin:"auto",lineHeight:"280%"}}>
-         {/* email component */}
-         <Box className='passage'>
-            <h1 className='header'>GET THE LATEST NEWS & OFFERS IN BEAUTY & FASHION</h1>
-            <input className='Take-email' type="email" placeholder = "Enter Your Email Adress" />
-            <input className='Post-email' type="submit"value="SUBSCRIBE" />
-         </Box>
-         {/* custom Text */}
+     <div style={{color:"gray",textAlign:"center",width:"86%",margin:"auto",lineHeight:"230%"}}>
+       
          <h1 className='header'>The best face moisturizer will set your makeup and protect your skin from aging, fine lines, wrinkles, and skin imperfections.</h1>
          <p>Whether you have oily skin, regular or combination skin, moisturizer is essential. Sometimes, excess oil is produced due to the lack of moisture on the skin, resulting in excess sebum production. A skin moisturizer can also protect and preserve youthful skin. It's essential to nourish dehydrated skin at least twice a day.
 </p>

@@ -1,44 +1,229 @@
-import React,{useState,useEffect} from 'react'
-import { useSearchParams } from 'react-router-dom';
-import axios from "axios";
+import React,{useEffect} from 'react'
+import { useLocation, useSearchParams } from 'react-router-dom';
 import { Box } from '@chakra-ui/react';
 import "./Mostorizer.css"
 import HoverEffect from '../Components/HoverEffect';
 import Product_Page_Footer from '../Components/Product_Page_Footer';
 import Filtersort from '../Components/Filtersort';
-
+import { useDispatch, useSelector } from 'react-redux';
+import { getData } from '../Redux/Action';
+import {
+    Accordion,
+    AccordionItem,
+    AccordionButton,
+    AccordionPanel,
+    AccordionIcon,
+  } from '@chakra-ui/react'
+import HoverEffect from '../components/HoverEffect';
+import Product_Page_Footer from '../components/Product_Page_Footer';
+import Filtersort from '../components/Filtersort';
 function MostorizerPage() {
-
-    const[data,setData] = useState([]);
+    const data = useSelector((state) => state.productData)
+     const dispatch = useDispatch();
     const [searchParams] = useSearchParams();
-    const getData = () =>{
-        axios
-        .get("http://localhost:8080/products")
-        .then((r)=>{
-            setData(r.data);
-        })
-        .catch((e)=>{
-            console.log(e);
-        })
-    }
+    const location =  useLocation();
+    console.log(location); //so here we will put the location as a dependency because i have to put this in a location tab;
+
+    // whenever the filter component changes the music album should changes
     useEffect(()=>{
-        getData();
-    },[]);
-    console.log(data);
+        if(location || data.length === 0){
+            const cat  = searchParams.getAll("cat")
+        const queryParams = {
+            params:{
+                cat:cat,
+                _sort : searchParams.get("sortBy") && "price",
+                _order:searchParams.get("sortBy"),
+            }
+        }
+        dispatch(getData(queryParams))
+        }
+        
+    },[location.search]);
+    // console.log(data);
     
   return (
     <>
+    <Box>
+    <h3 style={{textAlign: "left",marginLeft:"8%"}}>SEPHORA / Home/Skincare /
+ <span style={{color:"Pink"}}>Face & Skin Moisturizers</span></h3>
+ 
+ </Box>
    <Box className='main-container'>
        
        <Box className='box-1'>
        {/* 1st filter */}
+       <h1 className='filter-header'>CATEGORY</h1>
+       <br />
        <Filtersort/>
-         <br />
-         <hr />
-   <br /><br />
-         <h1 style={{textAlign:"left"}}>FILTER BY</h1>
-         <br />
-  
+       <br />
+        <hr />
+        <br />
+        <h1 className='filter-header'>FILTER BY</h1>
+        <div>
+ <Accordion display={"grid"} gap={"20px"} defaultIndex={[0]} allowMultiple>
+  <AccordionItem>
+    <h2>
+      <AccordionButton border = {"2px solid black"}>
+        <Box flex='1' textAlign='left'>
+        Gender
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+    </AccordionPanel>
+  </AccordionItem>
+  <AccordionItem>
+    <h2>
+      <AccordionButton border = {"2px solid black"}>
+        <Box flex='1' textAlign='left'>
+         Brand
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+    </AccordionPanel>
+  </AccordionItem>
+  <AccordionItem>
+    <h2>
+      <AccordionButton border = {"2px solid black"}>
+        <Box flex='1' textAlign='left'>
+          Size
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+    </AccordionPanel>
+  </AccordionItem>
+  <AccordionItem>
+    <h2>
+      <AccordionButton border = {"2px solid black"}>
+        <Box flex='1' textAlign='left'>
+          Color
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+    </AccordionPanel>
+  </AccordionItem>
+  <AccordionItem>
+    <h2>
+      <AccordionButton border = {"2px solid black"}>
+        <Box flex='1' textAlign='left'>
+          Promotion
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+    </AccordionPanel>
+  </AccordionItem>
+  <AccordionItem>
+    <h2>
+      <AccordionButton border = {"2px solid black"}>
+        <Box flex='1' textAlign='left'>
+          Price
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+    </AccordionPanel>
+  </AccordionItem>
+  <AccordionItem>
+    <h2>
+      <AccordionButton border = {"2px solid black"}>
+        <Box flex='1' textAlign='left'>
+         Price
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+    </AccordionPanel>
+  </AccordionItem>
+  <AccordionItem>
+    <h2>
+      <AccordionButton border = {"2px solid black"}>
+        <Box flex='1' textAlign='left'>
+          Store
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+    </AccordionPanel>
+  </AccordionItem>
+  <AccordionItem>
+    <h2>
+      <AccordionButton border = {"2px solid black"}>
+        <Box flex='1' textAlign='left'>
+        Skin Type
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+    </AccordionPanel>
+  </AccordionItem>
+  <AccordionItem>
+    <h2>
+      <AccordionButton border = {"2px solid black"}>
+        <Box flex='1' textAlign='left'>
+      Ingredient Preferences
+        </Box>
+        <AccordionIcon />
+      </AccordionButton>
+    </h2>
+    <AccordionPanel pb={4}>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat.
+    </AccordionPanel>
+  </AccordionItem>
+</Accordion>
+        </div>
+
        </Box>
 
     
@@ -52,19 +237,24 @@ function MostorizerPage() {
         image = {items.image1}
         
         />
+
         <Box className='single-product'>
+        <h3 style={{fontWeight:"bolder"}}>{items.brand}</h3>
         <h2>{items.title}</h2>
         <h2 style={{fontWeight:"bolder"}}>Rs.{items.price}</h2>
         </Box>
-
-     
-       
         </Box>
         ))}
        </Box>
     
    </Box>
    {/* this is the email componenyt */}
+   <br /><br />
+   <Box className='passage'>
+            <h1 className='header'>GET THE LATEST NEWS & OFFERS IN BEAUTY & FASHION</h1>
+            <input className='Take-email' type="email" placeholder = "Enter Your Email Adress" />
+            <input className='Post-email' type="submit"value="SUBSCRIBE" />
+         </Box>
     <Product_Page_Footer/>
    </>
       
