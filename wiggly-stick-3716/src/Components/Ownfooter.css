@@ -4,14 +4,14 @@
    font-weight: bold;
 }
 .passage{
-    height: 180px;
-   padding-top: 5%;
+    height: 150px;
+   padding-top: 3%;
     width: 100%;
     background-color: rgb(246, 242, 242);
 }
 .Take-email{
     width: 300px;
-    padding: 3px;
+    padding: 9px;
 }
 .Post-email{
     color: white;
