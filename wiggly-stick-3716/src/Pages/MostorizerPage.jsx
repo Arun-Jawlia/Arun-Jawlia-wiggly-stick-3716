@@ -14,6 +14,9 @@ import {
     AccordionPanel,
     AccordionIcon,
   } from '@chakra-ui/react'
+import HoverEffect from '../components/HoverEffect';
+import Product_Page_Footer from '../components/Product_Page_Footer';
+import Filtersort from '../components/Filtersort';
 
 function MostorizerPage() {
     const data = useSelector((state) => state.productData)
@@ -241,9 +244,6 @@ function MostorizerPage() {
         <h2>{items.title}</h2>
         <h2 style={{fontWeight:"bolder"}}>Rs.{items.price}</h2>
         </Box>
-
-     
-       
         </Box>
         ))}
        </Box>
