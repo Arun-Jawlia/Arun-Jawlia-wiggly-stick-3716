@@ -14,6 +14,7 @@ import {
     AccordionPanel,
     AccordionIcon,
   } from '@chakra-ui/react'
+import Navbar from '../Components/Navbar/Navbar';
 function MostorizerPage() {
     const data = useSelector((state) => state.productData)
      const dispatch = useDispatch();
@@ -40,6 +41,7 @@ function MostorizerPage() {
     
   return (
     <>
+    {/* <Navbar/> */}
     <Box>
     <h3 style={{textAlign: "left",marginLeft:"8%"}}>SEPHORA / Home/Skincare /
  <span style={{color:"Pink"}}>Face & Skin Moisturizers</span></h3>

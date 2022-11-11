@@ -1,5 +1,7 @@
 import React from 'react'
 import './navbar.css'
+import {Link} from 'react-router-dom'
+import myLogo from "../../assets/beautyHubLogo.png";
 // I am not able to raise pull request
 
 const Navbar = () => {
@@ -10,7 +12,8 @@ const Navbar = () => {
         <a href="https://www.nnnow.com/"
           ><img
             id="logo"
-            src="https://cdn02.nnnow.com/web-images/master/navtree_metaData/59b2425ae4b0d70964ee66e0/1505806763887/12NNNOWLOGODESKTOP.png"
+            // src="https://cdn02.nnnow.com/web-images/master/navtree_metaData/59b2425ae4b0d70964ee66e0/1505806763887/12NNNOWLOGODESKTOP.png"
+            src={myLogo}
             alt="Nnnow.logo"
         /></a>
       </div>
@@ -30,19 +33,19 @@ const Navbar = () => {
             alt=""
         /></span>
 
-        <span
+        {/* <span
           ><img
             src="https://www.iconsdb.com/icons/preview/pink/star-xxl.png"
             alt=""
-        /></span>
+        /></span> */}
 
         Check Out Out Newest Arrivals
 
-        <span
+        {/* <span
           ><img
             src="https://www.iconsdb.com/icons/preview/pink/star-xxl.png"
             alt=""
-        /></span>
+        /></span> */}
 
         <span
           ><img
@@ -98,21 +101,21 @@ const Navbar = () => {
       {/* <!-- Favourite Bag and  class="icondivider"--> */}
       <div>
         <div>
-          <a href="favourite.html"
-            ><span class="material-symbols-outlined"> favorite </span></a
+          <a href="#"
+            ><span class="material-symbols-outlined"> <Link to='/favourite'>favorite</Link> </span></a
           >
         </div>
         <span class="icondivider">|</span>
         <div>
-          <a href="cart_page.html"
-            ><span class="material-symbols-outlined"> shopping_bag </span></a
+          <a href="#"
+            ><span class="material-symbols-outlined"> <Link to='/cart'>shopping_bag</Link> </span></a
           >
         </div>
         <span class="icondivider">|</span>
 
         <div>
-          <a href="login.html"
-            ><span class="material-symbols-outlined"> person </span></a
+          <a href='#'
+            ><span class="material-symbols-outlined"><Link to='/signup'>person </Link></span></a
           >
         </div>
       </div>
@@ -128,7 +131,7 @@ const Navbar = () => {
           <div class="dropdownflex">
             <div>
               <h3>FACE</h3>
-              <div>Foundation</div>
+              <div><Link to='/foundation'>Foundation</Link></div>
               <div>BB & CC Cream</div>
               <div>Concealer</div>
               <div>Face Primer</div>
@@ -178,7 +181,7 @@ const Navbar = () => {
           <div class="dropdownflex">
             <div>
               <h3>MOISTURIZERS</h3>
-              <div>Moisturizers</div>
+              <div><Link to='/moisturizer'>Moisturizers</Link></div>
               <div>Night Creams</div>
               <div>Mists & Essence</div>
               <div>BB & CC Creams</div>
