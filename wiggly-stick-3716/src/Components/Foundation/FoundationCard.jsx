@@ -3,8 +3,15 @@ import React from "react";
 import "./FoundationCard.css";
 import styles from "./FoundationCard.css";
 const FoundationCard = ({ product }) => {
+  //let showData = JSON.parse(localStorage.getItem("showdata"));
+   
+  const handleProductDetail = () => {
+    console.log(product);
+    localStorage.setItem("showdata",JSON.stringify(product));
+    // navigate
+  };
   return (
-    <div className="foundation-card">
+    <div className="foundation-card" onClick={handleProductDetail}>
       <div>
         <div className="hover-animation">
           <img src={product.image2} alt="" className="front-image" />
@@ -16,7 +23,7 @@ const FoundationCard = ({ product }) => {
                   <LockIcon />
                 </div>
                 <div style={{ fontSize: "13px", fontWeight: "bold" }}>
-                  SHOPNNOW
+                  SHOP NNOW
                 </div>
               </div>
               <div>
@@ -32,7 +39,7 @@ const FoundationCard = ({ product }) => {
             </div>
           </div>
         </div>
-        <div className="products-offer" style={{marginTop:"1rem"}}>
+        <div className="products-offer" style={{ marginTop: "1rem" }}>
           <div className="logo">
             {product.offerType == "BESTSELLER" ? (
               <div className="bestseller offertype">
@@ -57,6 +64,6 @@ const FoundationCard = ({ product }) => {
       </div>
     </div>
   );
-};
+};;
 
 export default FoundationCard;

@@ -20,10 +20,10 @@ const  getProductFailure=()=>{
 }
 
 
-const getProductsData = (dispatch) => {
+const getProductsData =(queryParams)=>(dispatch) => {
   dispatch(getProductRequest);
   return axios
-    .get("http://localhost:8080/Face_Foundation_Cream")
+    .get("http://localhost:8080/Face_Foundation_Cream",queryParams)
     .then((r) => {
       dispatch({
         type: types.GET_PRODUCTS_SUCCESS,

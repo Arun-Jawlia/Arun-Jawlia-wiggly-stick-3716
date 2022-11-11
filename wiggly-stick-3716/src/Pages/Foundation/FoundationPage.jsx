@@ -7,6 +7,8 @@ import { useState } from "react";
 import FoundationCard from "../../Components/Foundation/FoundationCard";
 import { useDispatch, useSelector } from "react-redux";
 import { getProductsData } from "../../Redux/FoundationPageReducer/actions";
+import SortData from "../../Components/Foundation/SortData";
+import { useLocation, useSearchParams } from "react-router-dom";
     
     // const getData = (url) =>
     //   axios.get(url).then((res) => {
@@ -16,19 +18,29 @@ import { getProductsData } from "../../Redux/FoundationPageReducer/actions";
  
 const FoundationPage=()=>{
    const dispatch = useDispatch();
+    const [searchParams] = useSearchParams();
    const products = useSelector((store) => store.products);
    
    //const [data,setData]=useState(item);
-
+ const location = useLocation();
+ console.log(location);
    useEffect(() => {
-     dispatch(getProductsData);
-   }, []);
+      if(location  || products.length===0){
+
+         const queryParams = {
+           params: {
+             _sort: searchParams.get("sortBy") && "price",
+             _order: searchParams.get("sortBy"),
+           },
+         };
+    
+     dispatch(getProductsData(queryParams));
+    }
+   }, [location]);
    console.log(products);
 
   //  Sorting
-  const handleSort=(by)=>{
-    console.log(by)
-  }
+
 
    
     return (
@@ -45,12 +57,7 @@ const FoundationPage=()=>{
             >
               FILTER BY
             </p>
-            <div className="filter-option">
-              <div>Brand</div>
-              <div>
-                <ChevronRightIcon w={6} h={6} />
-              </div>
-            </div>
+            
             <div className="filter-option">
               <div>Brand</div>
               <div>
@@ -126,23 +133,7 @@ const FoundationPage=()=>{
           </div>
         </div>
         <div className="product-data-main">
-          <div className="sorting">
-            <div className="sort">
-              <label>SORT:</label>
-              <select
-                className="ddlist"
-                onChange={(e)=>{
-                  handleSort(e.target.value)
-                }}
-              >
-                <option value="popularity">Popularity</option>
-                <option value="newest">Newest</option>
-                <option value="lowTohigh">Price :Low to High</option>
-                <option value="highTolow">Price :High to Low</option>
-                <option value="discount">Discount</option>
-              </select>
-            </div>
-          </div>
+         <SortData/>
           <div className="product-data">
             {products.map((data) => (
               <FoundationCard key={data.id} product={data} />
