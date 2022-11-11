@@ -1,5 +1,5 @@
 import React,{useEffect} from 'react'
-import { useLocation, useSearchParams } from 'react-router-dom';
+import { Link, useLocation, useSearchParams } from 'react-router-dom';
 import { Box } from '@chakra-ui/react';
 import "./Mostorizer.css"
 import HoverEffect from '../Components/HoverEffect';
@@ -13,13 +13,18 @@ import {
     AccordionButton,
     AccordionPanel,
     AccordionIcon,
-  } from '@chakra-ui/react'
+  } from '@chakra-ui/react';
+import ScrollButton from '../Components/Scrollbutton';
+import Navbar from '../Components/Navbar/Navbar';
+
+
 function MostorizerPage() {
-    const data = useSelector((state) => state.productData)
+    const data = useSelector((state) => state.allData.productData);
+   
      const dispatch = useDispatch();
     const [searchParams] = useSearchParams();
     const location =  useLocation();
-    console.log(location); //so here we will put the location as a dependency because i have to put this in a location tab;
+    // console.log(location); //so here we will put the location as a dependency because i have to put this in a location tab;
 
     // whenever the filter component changes the music album should changes
     useEffect(()=>{
@@ -40,6 +45,7 @@ function MostorizerPage() {
     
   return (
     <>
+    <Navbar/>
     <Box>
     <h3 style={{textAlign: "left",marginLeft:"8%"}}>SEPHORA / Home/Skincare /
  <span style={{color:"Pink"}}>Face & Skin Moisturizers</span></h3>
@@ -56,6 +62,7 @@ function MostorizerPage() {
         <hr />
         <br />
         <h1 className='filter-header'>FILTER BY</h1>
+        <ScrollButton />
         <div>
  <Accordion display={"grid"} gap={"20px"} defaultIndex={[0]} allowMultiple>
   <AccordionItem>
@@ -227,19 +234,18 @@ function MostorizerPage() {
        <Box className='box-2'>
        {data.map((items)=>(
 
-        <Box className='single-product' key = {items.id} >
-       
-        
+        <Box  className='single-product' key = {items.id} >
         <HoverEffect
         image = {items.image1}
-        
+        id = {items.id}
         />
-
-        <Box className='single-product'>
+        <Link to = {`/products/${items.id}`}>
+        <Box  className='single-product'>
         <h3 style={{fontWeight:"bolder"}}>{items.brand}</h3>
         <h2>{items.title}</h2>
         <h2 style={{fontWeight:"bolder"}}>Rs.{items.price}</h2>
         </Box>
+        </Link>
         </Box>
         ))}
        </Box>

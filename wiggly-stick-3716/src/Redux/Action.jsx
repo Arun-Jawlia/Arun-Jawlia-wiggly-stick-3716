@@ -20,3 +20,10 @@ export const getData = (queryParams) => (dispatch) =>{
     dispatch({type:types.GET_DATA_FALIURE})
    });
 }
+// this action call for the selcted product in the 
+export const selectedProduct = (data) =>{
+    return {
+        type:types.GET_SELECTED_PRODUCT,
+        payload:data
+    }
+}

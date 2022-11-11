@@ -1,0 +1,29 @@
+.single-item-main{
+    height: auto;
+    width: 85%;
+    margin: auto;
+    border: 2px solid black;
+    display: flex;
+}
+.single-item-main-one{
+    border: 2px solid red;
+    width: 70%;
+    
+}
+.single-item-main-two{
+    font-size: 13px;
+    text-align: left;
+    border: 2px solid purple;
+    width: 30%;
+    line-height: 180%;
+
+}
+.single-item-main-two p {
+    color: rgb(230, 39, 71);
+}
+.offer{
+   height: 40px;
+   width: 50px;
+   border: 3px solid rgb(213, 213, 213);
+   border-style: dashed;
+}
