@@ -91,9 +91,20 @@
 }
 
 #headingsephora>div:first-child{
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    display: flex;
+    border: 1px solid rgb(186, 181, 181);
+    padding: 4px 10px;
+    border-radius: 10px;
 }
 
+
+#headingsephora>div:first-child input{
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-color: transparent;
+
+}
 
 
 
@@ -138,7 +149,12 @@
     height: 20px;
     cursor: pointer;
     margin-top: 7px;
+    width: 15px;
+    margin-right: 5px;
+
 }
+
+
 
 
 
