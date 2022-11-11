@@ -27,3 +27,39 @@ export const selectedProduct = (data) =>{
         payload:data
     }
 }
+const getProductRequest=()=>{
+    return{
+        type:types.GET_PRODUCTS_REQUEST
+    }
+}
+
+// const getProductSuccess=(payload)=>{
+//     return{
+//         type:types.GET_PRODUCTS_SUCCESS,
+//         payload
+//     }
+// }
+
+const  getProductFailure=()=>{
+    return{
+        type:types.GET_PRODUCTS_FAILURE
+    }
+}
+
+
+const getProductsData =(queryParams)=>(dispatch) => {
+  dispatch(getProductRequest);
+  return axios
+    .get("http://localhost:8080/Face_Foundation_Cream",queryParams)
+    .then((r) => {
+      dispatch({
+        type: types.GET_PRODUCTS_SUCCESS,
+        payload: r.data,
+      });
+    })
+    .catch((e) => {
+      dispatch(getProductFailure);
+    });
+};
+
+export { getProductsData };

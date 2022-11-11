@@ -13,7 +13,6 @@ import {
     AccordionButton,
     AccordionPanel,
     AccordionIcon,
-// <<<<<<< HEAD
   } from '@chakra-ui/react'
 import Navbar from '../Components/Navbar/Navbar';
 import ScrollButton from '../Components/Scrollbutton';
@@ -25,7 +24,7 @@ function MostorizerPage() {
      const dispatch = useDispatch();
     const [searchParams] = useSearchParams();
     const location =  useLocation();
-    // console.log(location); //so here we will put the location as a dependency because i have to put this in a location tab;
+    console.log(location); //so here we will put the location as a dependency because i have to put this in a location tab;
 
     // whenever the filter component changes the music album should changes
     useEffect(()=>{
@@ -42,7 +41,7 @@ function MostorizerPage() {
         }
         
     },[location.search]);
-    // console.log(data);
+    console.log(data);
     
   return (
     <>
