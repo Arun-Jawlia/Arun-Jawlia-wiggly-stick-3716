@@ -8,10 +8,11 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <Home/>
+      <Address/>
       <Checkout />
       <Payment />
-      {/* <MostorizerPage />
-      <Singleitemshow/> */}
+     
       <Allroutes/>
     </div>
   );

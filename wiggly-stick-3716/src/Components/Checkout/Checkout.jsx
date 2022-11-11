@@ -1,8 +1,13 @@
 import React from "react";
 import "./checkout.css";
 import myLogo from "../../assets/beautyHubLogo.png";
+import { useState } from "react";
 
 const Checkout = () => {
+
+  const [address , setAddress]= useState('')
+
+
   return (
     <div className="checkout" id="checkout">
       {/* Checkout section 1 */}
@@ -49,7 +54,10 @@ const Checkout = () => {
                   fontSize: "14px",
                 }}
               >
-                <p>Shipping address</p>
+                <p>Shipping address
+
+                <button className="changeBtn">Change</button>
+                </p>
               </div>
               <div style={{ fontSize: "12px", padding: "0px 30px 0px 10px" }}>
                 <div>
