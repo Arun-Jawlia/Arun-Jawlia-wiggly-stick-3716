@@ -1,5 +1,5 @@
 import "./App.css";
-<<<<<<< HEAD
+// <<<<<<< HEAD
 // import Navbar from "../src/Components/Navbar/Navbar.jsx"
 
 // import Home from "./Pages/Home"
@@ -15,26 +15,26 @@ function App() {
     <div className="App">
       <AllRoutes/>
       </div>
-      
-=======
-import Checkout from "./Components/Checkout/Checkout";
-import Payment from "./Components/Payment/Payment";
-import Navbar from "./Components/Navbar/Navbar";
+  ) 
+} 
+// =======
+// import Checkout from "./Components/Checkout/Checkout";
+// import Payment from "./Components/Payment/Payment";
+// import Navbar from "./Components/Navbar/Navbar";
 
-import Allroutes from "./Pages/Allroutes";
-function App() {
-  return (
-    <div className="App">
-      <Navbar />
-      <Home/>
-      <Address/>
-      <Checkout />
-      <Payment />
+// import Allroutes from "./Pages/Allroutes";
+// function App() {
+//   return (
+//     <div className="App">
+//       <Navbar />
+//       <Home/>
+//       <Address/>
+//       <Checkout />
+//       <Payment />
      
-      <Allroutes/>
->>>>>>> 0cfc6d5fa1d00112e90e958234bf590a27ea013a
-    </div>
-  )
-}
+//       <Allroutes/>
+//     </div>
+//   )
+// }
 
 export default App;
