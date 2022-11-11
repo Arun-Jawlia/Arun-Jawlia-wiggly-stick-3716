@@ -8,11 +8,15 @@ import CardContainer from '../Components/HOME/CardContainer';
 import DisplayCard from '../Components/HOME/DisplayCard';
 import Scroll from '../Components/HOME/Scroll';
 import Product_Page_Footer from '../Components/HOME/Product_Page_Footer';
+import Navbar from '../Components/Navbar/Navbar';
 
 
 const Home = () => {
   return (
     <div >
+      <div>
+      <Navbar/>
+      </div>
       
         <UncontrolledExample />
         <Childcart/>
