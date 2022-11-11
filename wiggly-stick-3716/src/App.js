@@ -13,13 +13,7 @@ function App() {
   return (
     <div className="App">
       <AllRoutes/>
-      {/* <Navbar />
-      <Home/>
-      <Address/>
-      <Checkout />
-      <Payment />
-      <MostorizerPage />
-      <ScrollButton /> */}
+      
     </div>
   );
 }
