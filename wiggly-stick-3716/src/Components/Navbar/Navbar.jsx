@@ -9,7 +9,7 @@ const Navbar = () => {
     <div>
          <div id="navbaruppersection">
       <div>
-        <a href="https://www.nnnow.com/"
+        <a href="index.html" 
           ><img
             id="logo"
             // src="https://cdn02.nnnow.com/web-images/master/navtree_metaData/59b2425ae4b0d70964ee66e0/1505806763887/12NNNOWLOGODESKTOP.png"
@@ -83,19 +83,19 @@ const Navbar = () => {
         /><input
           type="text"
           name=""
-          placeholder="Search SEPHORA"
+          placeholder="Search Beauty hub"
           id="searchbar"
         />
       </div>
 
       {/* <!-- Sephora Image Navbar --> */}
       <div>
-        <a href="homepage.html"
-          ><img
+        
+         <Link to='/'> <img
             id="sephora"
-            src="https://cdn07.nnnow.com/web-images/master/navtree_metaData/59b2657be4b0e6b6e16a9180/1548053082431/se.png"
+            src={myLogo}
             alt=""
-        /></a>
+        /></Link>
       </div>
 
       {/* <!-- Favourite Bag and  class="icondivider"--> */}
