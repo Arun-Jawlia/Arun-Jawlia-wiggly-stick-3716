@@ -4,6 +4,11 @@ import myLogo from "../../assets/beautyHubLogo.png";
 import { useState } from "react";
 
 const Payment = () => {
+  const [toggle, showMenu]= useState(false)
+  const [netBanking, showNetBanking]= useState(false)
+  const [wallet, showWallet]= useState(false)
+  const [upi, showUpi]= useState(false)
+  
  
 
   return (
@@ -62,13 +67,13 @@ const Payment = () => {
               <div>
                 <div className="payment_methods">
                   <div>
-                    <button >
+                    <button onClick={()=>showMenu(!toggle)}>
                       <span class="material-symbols-outlined">circle</span>
                     </button>
                   </div>
                   <div>Credit / Debit Card</div>
                 </div>
-                <div className="payment_method_detail">
+                <div className={toggle ? 'payment_method_detail ' : 'payment_method_hide'}>
                   <div>
                     <div>
                       <label>Enter your card number</label>
@@ -108,13 +113,13 @@ const Payment = () => {
               <div>
                 <div className="payment_methods">
                   <div>
-                    <button>
+                    <button onClick={()=>showNetBanking(!netBanking)}>
                       <span class="material-symbols-outlined">circle</span>
                     </button>
                   </div>
                   <div>Net Banking</div>
                 </div>
-                <div className="payment_method_detail grid_container">
+                <div className={netBanking ? 'payment_method_detail grid_container' : 'payment_method_hide'}>
                   <div
                     style={{
                       padding: "10px",
@@ -187,13 +192,13 @@ const Payment = () => {
               <div>
                 <div className="payment_methods">
                   <div>
-                    <button>
+                    <button onClick={()=>showWallet(!wallet)} >
                       <span class="material-symbols-outlined">circle</span>
                     </button>
                   </div>
                   <div>Other Wallets</div>
                 </div>
-                <div className="payment_method_detail grid_container">
+                <div className={wallet ? 'payment_method_detail grid_container' : 'payment_method_hide'}>
                   <div
                     style={{
                       padding: "10px",
@@ -292,13 +297,13 @@ const Payment = () => {
               <div>
                 <div className="payment_methods">
                   <div>
-                    <button>
+                    <button onClick={()=>showUpi(!upi)}>
                       <span class="material-symbols-outlined">circle</span>
                     </button>
                   </div>
                   <div>UPI</div>
                 </div>
-                <div className="payment_method_detail">
+                <div className={upi ? 'payment_method_detail ' : 'payment_method_hide'}>
                   <div><label>UPI ID:</label></div>
                   <div><input type="text" placeholder="Upi id" /></div>
                   <button>Pay</button>

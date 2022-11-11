@@ -24,6 +24,7 @@ a{
 .checkout_top_acc{
     display: flex;
     align-items: center;
+    text-align: left;
 }
 
 /* Checkout section 2 */
@@ -371,4 +372,29 @@ margin: auto;
 
 .grid_container div{
     border: 5px solid red;
+}
+
+
+
+
+
+.payment_method_hide{
+    display:none;
+}
+
+
+.circle{
+    background-color: red;
+
+}
+
+
+
+.changeBtn{
+    border: 1px solid rgb(176, 174, 174);
+    padding: 3px 20px;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 5px;
+    background-color: rgb(253, 249, 249);
 }
