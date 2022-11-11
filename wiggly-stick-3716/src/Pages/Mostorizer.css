@@ -27,6 +27,7 @@
 .single-product{
     display: grid;
     justify-content: center;
+    cursor: pointer;
   
 }
 .box1 input{

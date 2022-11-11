@@ -5,7 +5,7 @@ const initialState = {
     isLoading:false,
     isError:false,
 }
-export const reducer = (oldState = initialState,action) =>{
+export const ProductsReducer = (oldState = initialState,action) =>{
     const {type,payload}  = action;
     switch(type){
         case types.GET_DATA_REQUEST:
@@ -29,3 +29,6 @@ export const reducer = (oldState = initialState,action) =>{
     }
 
 }
+
+// this is for selected product reducer
+
