@@ -1,0 +1,50 @@
+.main-container{
+    height: auto;
+    width: 86%;
+    margin: auto;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+
+.box-1{
+    height:2000px;
+    width: 20%;
+}
+.box-2{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(7,350px);
+  
+    height: auto;
+    width: 80%;
+}
+.product-image{
+    width: 285px;
+}
+.single-product{
+    display: grid;
+    justify-content: center;
+    cursor: pointer;
+  
+}
+.box1 input{
+    padding: 100%;
+}
+.filter-header{
+    font-size: 17px;
+    font-weight: bolder;
+    text-align: left;
+    padding: 10px;
+}
+input[type = "checkbox"]{
+    height: 21px;
+    width: 40px;
+    margin-right: 10px;
+  
+}
+
+  
+       
