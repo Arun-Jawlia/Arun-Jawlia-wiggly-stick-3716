@@ -2,6 +2,16 @@ import "./App.css";
 // <<<<<<< HEAD
 // import Navbar from "../src/Components/Navbar/Navbar.jsx"
 
+
+import './App.css';
+import FoundationCard from './Components/Foundation/FoundationCard';
+import ProductShow from './Components/Foundation/ProductShow';
+import FoundationPage from './Pages/Foundation/FoundationPage';
+import MainRoute from './Pages/Foundation/MainRoutes';
+
+
+
+
 // import Home from "./Pages/Home"
 // import ScrollButton from "./Components/Scrollbutton";
 // import Checkout from "./Components/Checkout/Checkout";
@@ -36,5 +46,6 @@ function App() {
 //     </div>
 //   )
 // }
+
 
 export default App;

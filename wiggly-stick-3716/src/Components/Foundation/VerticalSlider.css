@@ -1,0 +1,36 @@
+.main-div {
+  display: flex;
+}
+.top-arrow {
+
+   position: absolute;
+   top:80%;
+  right: 50%;
+  font-size: 1.5rem;
+  color: grey;
+  z-index: 10;
+  cursor: pointer;
+  user-select: n;
+}
+.bottom-arrow {
+
+  position: absolute;
+  bottom:80%;
+  left: 40%;
+  font-size: 1.5rem;
+  color: grey;
+  z-index: 10;
+  cursor: pointer;
+  user-select: n;
+}
+.slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-vert{
+    width:70%;
+    height:200px;
+}

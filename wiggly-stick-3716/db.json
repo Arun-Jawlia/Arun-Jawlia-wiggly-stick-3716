@@ -1,184 +1,508 @@
-{
 
- "products":[
-  {
-    "id": "1",
-    "cat": "Moisturizer",
-    "title": "Extra-Firming Day Comfort Cream - Dry Skin",
-    "brand": "CLARINS",
-    "rating":4.3,
-    "image1": "https://cdn06.nnnow.com/web-images/large/styles/LOFPIPESQ6L/1589971882298/1.jpg",
-    "price": 5600
-  },
-  {
-    "id": "2",
-    "cat": "Moisturizer",
-    "rating":4.5,
-    "title": "UV Plus SPF50/PA++++ Sunscreen - Pink",
-    "brand": "CLARINS",
-    "image1": "https://cdn15.nnnow.com/web-images/large/styles/CIJN5OVIGSD/1589972320734/1.jpg",
-    "price": 2750
-  },
-  {
-    "id": "3",
-    "cat": "Cream",
-    "rating":4.9,
-    "title": "Hydra Essentiel Moisturizes And Quenches Silky Cream - Normal To Dry Skin",
-    "brand": "CLARINS",
-    "image1": "https://cdn19.nnnow.com/web-images/large/styles/2LJ12O78WZ7/1594031464988/1.jpg",
-    "price": 1980
-  },
-  {
-    "id": "4",
-    "cat": "Cream",
-    "rating":4.1,
-    "title": "Hydra Essentiel Moisturizes And Quenches Emulsion - All Skin Types",
-    "brand": "CLARINS",
-    "image1": "https://cdn07.nnnow.com/web-images/large/styles/7PWTS6YKAIF/1594031464962/1.jpg",
-    "price": 3450
-  },
-  {
-    "id": "5",
-    "rating":4.2,
-    "cat": "Moisturizer",
-    "title": "BB Beauty Perfector SPF 30/PA+++ - 02 Natural",
-    "brand": "CLARINS",
-    "image1": "https://cdn08.nnnow.com/web-images/large/styles/OH56DB13XZX/1594031464957/1.jpg",
-    "price": 2850
-  },
-  {
-    "id": "6",
-    "rating":2.4,
-    "cat": "Moisturizer",
-    "title": "Super Moisture Balm",
-    "brand": "CLARINS",
-    "image1": "https://cdn14.nnnow.com/web-images/large/styles/PN6C0CKP89A/1589971599297/1.jpg",
-    "price": 2800
-  },
-  {
-    "id": "7",
-    "rating":3.9,
-    "cat": "Facial Gel",
-    "title": "Light Hydrating Facial Gel - Pure Rosewater",
-    "brand": "FOREST ESSENTIALS",
-    "image1": "https://cdn04.nnnow.com/web-images/large/styles/HDK6RRWVMD2/1592914538314/1.jpg",
-    "price": 1450
-  },
-  {
-    "id": "8",
-    "rating":4.4,
-    "cat": "Cream",
-    "title": "Light Day Lotion With Lavender And Neroli - Normal Towards Oily Skin",
-    "brand": "FOREST ESSENTIALS",
-    "image1": "https://cdn16.nnnow.com/web-images/large/styles/YXY8PHL6GLX/1487240531815/1.jpg",
-    "price": 2025
-  },
-  {
-    "id": "9",
-    "rating":4.5,
-    "cat": "Moisturizer",
-    "title": "Facial Tonic Mist - Bela",
-    "brand": "FOREST ESSENTIALS",
-    "image1": "https://cdn04.nnnow.com/web-images/large/styles/K6ME556V4CR/1612251833198/1.jpg",
-    "price": 1150
-  },
-  {
-    "id": "10",
-    "rating":4.9,
-    "cat": "Cream",
-    "title": "Light Day Lotion With Madurai Jasmine And Mogra - Normal And Combination Skin",
-    "brand": "FOREST ESSENTIALS",
-    "image1": "https://cdn14.nnnow.com/web-images/large/styles/HBVVG1KR385/1612250784265/1.jpg",
-    "price": 2025
-  },
-  {
-    "id": "11",
-    "rating":4.8,
-    "cat": "Moisturizer",
-    "title": "Facial Tonic Mist - Bela",
-    "brand": "FOREST ESSENTIALS",
-    "image1": "https://cdn11.nnnow.com/web-images/large/styles/X4IKS7LVNN6/1588586627658/1.jpg",
-    "price": 750
-  },
-  {
-    "id": "12",
-    "rating":4.3,
-    "cat": "Cream",
-    "title": "Sanjeevani Beauty Elixir",
-    "brand": "FOREST ESSENTIALS",
-    "image1": "https://cdn06.nnnow.com/web-images/large/styles/U2DNRKQ0GA1/1614353172661/1.jpg",
-    "price": 3625
-  },
-  {
-    "id": "13",
-    "rating":4.9,
-    "cat": "Moisturizer",
-    "title": "Luminizing Surge Moisturizer",
-    "brand": "SHISEIDO",
-    "image1": "https://cdn09.nnnow.com/web-images/large/styles/JXGUBJ8P87J/1519035539735/1.jpg",
-    "price": 4200
-  },
-  {
-    "id": "14",
-    "rating":3.9,
-    "cat": "Moisturizer",
-    "title": "Waso Color-Smart Day Time Moisturizer Oil-Free",
-    "brand": "SHISEIDO",
-    "image1": "https://cdn14.nnnow.com/web-images/large/styles/0235QYQLU6R/1535611149325/1.jpg",
-    "image2": "https://cdn12.nnnow.com/web-images/large/styles/0235QYQLU6R/1535611149326/2.jpg",
-    "image3": "https://cdn09.nnnow.com/web-images/large/styles/0235QYQLU6R/1618914260104/50.jpg",
-    "color": [
-      "rgb(244,244,244)"
-    ],
-    "size": [
-      "50 ML"
-    ],
-    "price": 2700
-  },
-  {
-    "id": "15",
-    "rating":3.8,
-    "cat": "Cream",
-    "title": "Benefiance Wrinkle Resist 24 Balancing Softener Lotion - Normal To Dry Skin",
-    "brand": "SHISEIDO",
-    "image1": "https://cdn12.nnnow.com/web-images/large/styles/3PIIJQS1EJR/1495791489684/1.jpg",
-    "price": 3350
-  },
-  {
-    "id": "16",
-    "rating":3.9,
-    "cat": "Moisturizer",
-    "title": "Essential Energy Moisturizing Gel Cream",
-    "brand": "SHISEIDO",
-    "image1": "https://cdn13.nnnow.com/web-images/large/styles/LIZSZHSZIRA/1542965062675/1.jpg",
-    "price": 3700
-  },
-  {
-    "id": "17",
-    "rating":4.1,
-    "cat": "Moisturizer",
-    "title": "Treatment Softener Enriched Moisturiser",
-    "brand": "SHISEIDO",
-    "image1": "https://cdn11.nnnow.com/web-images/large/styles/NCNYKTBQ3CM/1593686852308/1.jpg",
-    "price": 3600
-  },
-  {
-    "id": "18",
-    "rating":4.9,
-    "cat": "Moisturizer",
-    "title": "Waso Fresh Jelly Lotion",
-    "brand": "SHISEIDO",
-    "image1": "https://cdn07.nnnow.com/web-images/large/styles/QFH4QNAOP8R/1535611149409/1.jpg",
-    "price": 2300
-  },
-  {
-    "id": "19",
-    "rating":4.6,
-    "cat": "Cream",
-    "title": "Essential Energy Day Emulsion",
-    "brand": "SHISEIDO",
-    "image1": "https://cdn10.nnnow.com/web-images/large/styles/HUGEDZ5AGW4/1593683099976/1.jpg",
-    "price": 3700
-  }
+{
+  "Face_Foundation_Cream": [
+    {
+      "id": "90",
+      "path": "SEPHORA / Sephora Collection / Makeup / Face Makeup / ",
+      "cur": "Face Foundation Cream",
+      "title": "Best Skin Ever Perfect Natural Finish Longwear Foundation - 22.5 N",
+      "offerType": "OFFER",
+      "brand": "SEPHORA COLLECTION",
+      "image1": "https://cdn02.nnnow.com/web-images/medium/styles/KO2GNHYI7VN/1539589546533/1.jpg",
+      "image2": "https://cdn18.nnnow.com/web-images/large/styles/6X95AWTXVPN/1617877484480/2.jpg",
+      "image3": "https://cdn08.nnnow.com/web-images/large/styles/6X95AWTXVPN/1617877484485/3.jpg",
+      "color": ["rgb(203,154,116)"],
+      "size": ["25 ML"],
+      "price": 1800
+    },
+    {
+      "id": "105",
+      "path": "SEPHORA / Sephora Collection / Makeup / Face Makeup / ",
+      "cur": "Face Foundation Cream",
+      "title": "Matte Perfection Powder Foundation - 21 Petal",
+      "offerType": "OFFER",
+      "brand": "SEPHORA COLLECTION",
+      "image1": "https://cdn07.nnnow.com/web-images/large/styles/5CC4W2M4YQC/1551249758723/1.jpg",
+      "image2": "https://cdn13.nnnow.com/web-images/large/styles/5CC4W2M4YQC/1617175487045/2.jpg",
+      "image3": "Not Available",
+      "color": ["rgb(224,183,146)", "rgb(204,167,127)"],
+      "size": ["7.5 gm"],
+      "price": 1500
+    },
+    {
+      "id": "91",
+      "path": "SEPHORA / Sephora Collection / Makeup / Face Makeup / ",
+      "cur": "Face Foundation Cream",
+      "title": "Best Skin Ever Perfect Natural Finish Longwear Foundation - 22.5 N",
+      "offerType": "BESTSELLER",
+      "brand": "SEPHORA COLLECTION",
+      "image1": "https://cdn00.nnnow.com/web-images/medium/styles/THOXSXRZGN1/1539586345124/1.jpg",
+      "image2": "https://cdn18.nnnow.com/web-images/large/styles/6X95AWTXVPN/1617877484480/2.jpg",
+      "image3": "https://cdn08.nnnow.com/web-images/large/styles/6X95AWTXVPN/1617877484485/3.jpg",
+      "color": ["rgb(203,154,116)"],
+      "size": ["25 ML"],
+      "price": 1800
+    },
+    {
+      "id": "92",
+      "path": "SEPHORA / Sephora Collection / Makeup / Face Makeup / ",
+      "cur": "Face Foundation Cream",
+      "title": "Best Skin Ever Perfect Natural Finish Longwear Foundation - 22.5 N",
+      "offerType": "OFFER",
+      "brand": "SEPHORA COLLECTION",
+      "image1": "https://cdn09.nnnow.com/web-images/medium/styles/3T4E8DLOLWR/1533201154994/1.jpg",
+      "image2": "https://cdn18.nnnow.com/web-images/large/styles/6X95AWTXVPN/1617877484480/2.jpg",
+      "image3": "https://cdn08.nnnow.com/web-images/large/styles/6X95AWTXVPN/1617877484485/3.jpg",
+      "color": ["rgb(203,154,116)"],
+      "size": ["25 ML"],
+      "price": 1800
+    },
+    {
+      "id": "100",
+      "path": "SEPHORA / Sephora Collection / Makeup / Face Makeup / ",
+      "cur": "Face Foundation Cream",
+      "title": "Best Skin Ever Perfect Natural Finish Longwear Foundation - 22.5 N",
+      "offerType": "OFFER",
+      "brand": "SEPHORA COLLECTION",
+      "image1": "https://cdn16.nnnow.com/web-images/large/styles/6X95AWTXVPN/1617877484490/1.jpg",
+      "image2": "https://cdn18.nnnow.com/web-images/large/styles/6X95AWTXVPN/1617877484480/2.jpg",
+      "image3": "https://cdn08.nnnow.com/web-images/large/styles/6X95AWTXVPN/1617877484485/3.jpg",
+      "color": ["rgb(203,154,116)"],
+      "size": ["25 ML"],
+      "price": 1800
+    },
+    {
+      "id": "101",
+      "path": "SEPHORA / Sephora Collection / Makeup / Face Makeup / ",
+      "cur": "Face Foundation Cream",
+      "title": "Best Skin Ever Perfect Natural Finish Longwear Foundation - 23 Y",
+      "offerType": "BESTSELLER",
+      "brand": "SEPHORA COLLECTION",
+      "image1": "https://cdn11.nnnow.com/web-images/large/styles/72481958NMQ/1617877482767/1.jpg",
+      "image2": "https://cdn03.nnnow.com/web-images/large/styles/72481958NMQ/1617877482757/2.jpg",
+      "image3": "https://cdn00.nnnow.com/web-images/large/styles/72481958NMQ/1617877482759/3.jpg",
+      "color": ["rgb(204,148,103)"],
+      "size": ["25 ML"],
+      "price": 1800
+    },
+    {
+      "id": "102",
+      "path": "SEPHORA / Sephora Collection / Makeup / Face Makeup / ",
+      "cur": "Face Foundation Cream",
+      "title": "Glow Perfection Foundation - 25 Beige",
+      "offerType": "OFFER",
+      "brand": "SEPHORA COLLECTION",
+      "image1": "https://cdn16.nnnow.com/web-images/large/styles/CH65NKWC2ZU/1533201155002/1.jpg",
+      "image2": "https://cdn16.nnnow.com/web-images/large/styles/CH65NKWC2ZU/1617175589724/2.jpg",
+      "image3": "Not Available",
+      "color": ["rgb(240,198,148)", "rgb(220,163,107)", "rgb(234,191,149)"],
+      "size": ["20 ML"],
+      "price": 1690
+    },
+    {
+      "id": "103",
+      "path": "SEPHORA / Sephora Collection / Makeup / Face Makeup / ",
+      "cur": "Face Foundation Cream",
+      "title": "Glow Perfection Foundation - Honey",
+      "offerType": "OFFER",
+      "brand": "SEPHORA COLLECTION",
+      "image1": "https://cdn15.nnnow.com/web-images/large/styles/YOQV85Y8P5Y/1566802042002/1.jpg",
+      "image2": "https://cdn00.nnnow.com/web-images/large/styles/YOQV85Y8P5Y/1617177033756/2.jpg",
+      "image3": "Not Available",
+      "color": ["rgb(235,198,159)", "rgb(196,118,62)"],
+      "size": ["20 ML"],
+      "price": 1690
+    },
+    {
+      "id": "104",
+      "path": "SEPHORA / Sephora Collection / Makeup / Face Makeup / ",
+      "cur": "Face Foundation Cream",
+      "title": "Mineral Foundation Compact - D35",
+      "offerType": "OFFER",
+      "brand": "SEPHORA COLLECTION",
+      "image1": "https://cdn07.nnnow.com/web-images/large/styles/J16NPX56AAC/1496667063590/1.jpg",
+      "image2": "https://cdn16.nnnow.com/web-images/large/styles/J16NPX56AAC/1496667063592/2.jpg",
+      "image3": "https://cdn18.nnnow.com/web-images/large/styles/J16NPX56AAC/1496667063593/3.jpg",
+      "color": ["rgb(194,137,94)", "rgb(235,187,146)"],
+      "size": ["10 gm"],
+      "price": 1500
+    },
+
+    {
+      "id": "106",
+      "path": "SEPHORA / Sephora Collection / Makeup / Face Makeup / ",
+      "cur": "Face Foundation Cream",
+      "title": "Care Foundation - 25.5 N Neutral Medium",
+      "offerType": "OFFER",
+      "brand": "SEPHORA COLLECTION",
+      "image1": "https://cdn16.nnnow.com/web-images/large/styles/MCLS3PBZEMC/1605172428553/1.jpg",
+      "image2": "Not Available",
+      "image3": "Not Available",
+      "color": ["rgb(173,121,77)"],
+      "size": ["30 ML"],
+      "price": 1800
+    },
+    {
+      "id": "107",
+      "path": "SEPHORA / Sephora Collection / Makeup / Face Makeup / ",
+      "cur": "Face Foundation Cream",
+      "title": "Matte Perfection Liquid Foundation - 25 Beige",
+      "offerType": "OFFER",
+      "brand": "SEPHORA COLLECTION",
+      "image1": "https://cdn11.nnnow.com/web-images/large/styles/3TASQM7RZPG/1541408391840/1.jpg",
+      "image2": "Not Available",
+      "image3": "Not Available",
+      "color": ["rgb(185,142,100)"],
+      "size": ["30 ML"],
+      "price": 1600
+    },
+    {
+      "id": "108",
+      "path": "SEPHORA / Sephora Collection / Makeup / Face Makeup / ",
+      "cur": "Face Foundation Cream",
+      "title": "Matte Perfection Stick Foundation - 25. Beige Matte",
+      "offerType": "OFFER",
+      "brand": "SEPHORA COLLECTION",
+      "image1": "https://cdn08.nnnow.com/web-images/large/styles/Y6H0I6XZSB0/1566556753082/1.jpg",
+      "image2": "https://cdn07.nnnow.com/web-images/large/styles/Y6H0I6XZSB0/1566556753080/2.jpg",
+      "image3": "https://cdn07.nnnow.com/web-images/large/styles/Y6H0I6XZSB0/1566556753081/3.jpg",
+      "color": ["rgb(223,161,134)"],
+      "size": ["11.6 gm"],
+      "price": 1650
+    },
+    {
+      "id": "109",
+      "path": "SEPHORA / Sephora Collection / Makeup / Face Makeup / ",
+      "cur": "Face Foundation Cream",
+      "title": "8 Hour Mattifying Compact Foundation - 35 Bronze",
+      "offerType": "OFFER",
+      "brand": "SEPHORA COLLECTION",
+      "image1": "https://cdn09.nnnow.com/web-images/large/styles/OAS9UO4OFTD/1495515802888/1.jpg",
+      "image2": "https://cdn15.nnnow.com/web-images/large/styles/OAS9UO4OFTD/1495515802892/2.jpg",
+      "image3": "Not Available",
+      "color": ["rgb(199,150,112)"],
+      "size": ["8.5 gm"],
+      "price": 1570
+    },
+    {
+      "id": "110",
+      "path": "SEPHORA / Huda Beauty / Makeup / Face Makeup / ",
+      "cur": "Face Foundation Cream",
+      "title": "#Faux Filter Luminous Matte Full Coverage Liquid Foundation - 210B Chai",
+      "offerType": "OFFER",
+      "brand": "HUDA BEAUTY",
+      "image1": "https://cdn06.nnnow.com/web-images/large/styles/VHI8O3X339G/1631791089772/1.jpg",
+      "image2": "https://cdn12.nnnow.com/web-images/large/styles/VHI8O3X339G/1631791089759/2.jpg",
+      "image3": "https://cdn19.nnnow.com/web-images/large/styles/VHI8O3X339G/1631791089766/3.jpg",
+      "color": ["rgb(230,177,140)"],
+      "size": ["35 ML"],
+      "price": 3300
+    },
+    {
+      "id": "111",
+      "path": "SEPHORA / Huda Beauty / Makeup / Face Makeup / ",
+      "cur": "Face Foundation Cream",
+      "title": "GloWish By Huda Beauty Multidew Skin Tint - 01 Fair",
+      "offerType": "OFFER",
+      "brand": "HUDA BEAUTY",
+      "image1": "https://cdn07.nnnow.com/web-images/large/styles/2GSXJYR4T7Q/1631786779917/1.jpg",
+      "image2": "https://cdn03.nnnow.com/web-images/large/styles/2GSXJYR4T7Q/1631786779910/2.jpg",
+      "image3": "https://cdn14.nnnow.com/web-images/large/styles/2GSXJYR4T7Q/1631786779914/3.jpg",
+      "color": ["rgb(246,208,188)"],
+      "size": ["40 ML - 1.35 FL. OZ"],
+      "price": 3250
+    },
+    {
+      "id": "112",
+      "path": "SEPHORA / Huda Beauty / Makeup / Face Makeup / ",
+      "cur": "Face Foundation Cream",
+      "title": "#Faux Filter Luminous Matte Full Coverage Liquid Foundation - 130G Panna Cotta",
+      "offerType": "OFFER",
+      "brand": "HUDA BEAUTY",
+      "image1": "https://cdn11.nnnow.com/web-images/large/styles/K4VXNFKZP73/1631790634265/1.jpg",
+      "image2": "https://cdn19.nnnow.com/web-images/large/styles/K4VXNFKZP73/1631790634257/2.jpg",
+      "image3": "https://cdn15.nnnow.com/web-images/large/styles/K4VXNFKZP73/1631790634258/3.jpg",
+      "color": ["rgb(251,221,186)"],
+      "size": ["35 ML"],
+      "price": 3300
+    },
+    {
+      "id": "113",
+      "path": "SEPHORA / Huda Beauty / Makeup / Face Makeup / ",
+      "cur": "Face Foundation Cream",
+      "title": "Easy Bake Loose Powder Foundation - Banana Bread",
+      "offerType": "BESTSELLER",
+      "brand": "HUDA BEAUTY",
+      "image1": "https://cdn17.nnnow.com/web-images/large/styles/9CAW879P336/1567571858068/1.jpg",
+      "image2": "https://cdn05.nnnow.com/web-images/large/styles/9CAW879P336/1567571858065/2.jpg",
+      "image3": "https://cdn17.nnnow.com/web-images/large/styles/9CAW879P336/1567571858066/3.jpg",
+      "color": ["rgb(228,192,161)"],
+      "size": ["20 gm"],
+      "price": 2955
+    },
+    {
+      "id": "114",
+      "path": "SEPHORA / Huda Beauty / Makeup / Face Makeup / ",
+      "cur": "Face Foundation Cream",
+      "title": "Easy Bake Loose Powder Foundation - Cinnamon Bun",
+      "offerType": "OFFER",
+      "brand": "HUDA BEAUTY",
+      "image1": "https://cdn14.nnnow.com/web-images/large/styles/DCYFXKNCRV9/1567571830495/1.jpg",
+      "image2": "https://cdn08.nnnow.com/web-images/large/styles/DCYFXKNCRV9/1567571830492/2.jpg",
+      "image3": "https://cdn15.nnnow.com/web-images/large/styles/DCYFXKNCRV9/1567571830494/3.jpg",
+      "color": ["rgb(186,122,82)"],
+      "size": ["20 gm"],
+      "price": 2955
+    },
+    {
+      "id": "115",
+      "path": "SEPHORA / Huda Beauty / Makeup / Face Makeup / ",
+      "cur": "Face Foundation Cream",
+      "title": "#FauxFilter Skin Finish Buildable Coverage Foundation Stick",
+      "offerType": "OFFER",
+      "brand": "HUDA BEAUTY",
+      "image1": "https://cdn11.nnnow.com/web-images/large/styles/ECH7QHW01V3/1609228432816/1.jpg",
+      "image2": "https://cdn16.nnnow.com/web-images/large/styles/ECH7QHW01V3/1609228432810/2.jpg",
+      "image3": "https://cdn05.nnnow.com/web-images/large/styles/ECH7QHW01V3/1609228432814/3.jpg",
+      "color": ["rgb(221,159,105)"],
+      "size": ["12.5 gm"],
+      "price": 3250
+    },
+    {
+      "id": "116",
+      "path": "SEPHORA / Huda Beauty / Makeup / Face Makeup / ",
+      "cur": "Face Foundation Cream",
+      "title": "#FauxFilter Skin Finish Buildable Coverage Foundation Stick",
+      "offerType": "OFFER",
+      "brand": "HUDA BEAUTY",
+      "image1": "https://cdn18.nnnow.com/web-images/large/styles/VOPQKZGHS4G/1609232305780/1.jpg",
+      "image2": "https://cdn09.nnnow.com/web-images/large/styles/VOPQKZGHS4G/1609232305773/2.jpg",
+      "image3": "https://cdn19.nnnow.com/web-images/large/styles/VOPQKZGHS4G/1609232305778/3.jpg",
+      "color": ["rgb(216,157,111)"],
+      "size": ["12.5 gm"],
+      "price": 3250
+    },
+    {
+      "id": "117",
+      "path": "SEPHORA / Huda Beauty / Makeup / Face Makeup / ",
+      "cur": "Face Foundation Cream",
+      "title": "GloWish By Huda Beauty Multidew Skin Tint - 13 Extra Rich",
+      "offerType": "BESTSELLER",
+      "brand": "HUDA BEAUTY",
+      "image1": "https://cdn09.nnnow.com/web-images/large/styles/UQWHCI6AHEE/1631786533350/1.jpg",
+      "image2": "https://cdn16.nnnow.com/web-images/large/styles/UQWHCI6AHEE/1631786533330/2.jpg",
+      "image3": "https://cdn14.nnnow.com/web-images/large/styles/UQWHCI6AHEE/1631786533339/3.jpg",
+      "color": ["rgb(83,39,20)"],
+      "size": ["40 ML - 1.35 FL. OZ"],
+      "price": 3250
+    },
+    {
+      "id": "118",
+      "path": "SEPHORA / Huda Beauty / Makeup / Face Makeup / ",
+      "cur": "Face Foundation Cream",
+      "title": "GloWish By Huda Beauty Multidew Skin Tint - 12 Rich",
+      "offerType": "OFFER",
+      "brand": "HUDA BEAUTY",
+      "image1": "https://cdn18.nnnow.com/web-images/large/styles/56OQQHLK9Y6/1631786793822/1.jpg",
+      "image2": "https://cdn16.nnnow.com/web-images/large/styles/56OQQHLK9Y6/1631786793812/2.jpg",
+      "image3": "https://cdn09.nnnow.com/web-images/large/styles/56OQQHLK9Y6/1631786793816/3.jpg",
+      "color": ["rgb(110,64,38)"],
+      "size": ["40 ML - 1.35 FL. OZ"],
+      "price": 3250
+    },
+    {
+      "id": "119",
+      "path": "SEPHORA / Huda Beauty / Makeup / Face Makeup / ",
+      "cur": "Face Foundation Cream",
+      "title": "Easy Bake Loose Powder Foundation - Coffee Cake",
+      "offerType": "OFFER",
+      "brand": "HUDA BEAUTY",
+      "image1": "https://cdn03.nnnow.com/web-images/large/styles/84VX0PRTILF/1567571830490/1.jpg",
+      "image2": "https://cdn19.nnnow.com/web-images/large/styles/84VX0PRTILF/1567571830486/2.jpg",
+      "image3": "https://cdn14.nnnow.com/web-images/large/styles/84VX0PRTILF/1567571830488/3.jpg",
+      "color": ["rgb(159,98,69)"],
+      "size": ["20 gm"],
+      "price": 2955
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "cat": "Moisturizer",
+      "title": "Extra-Firming Day Comfort Cream - Dry Skin",
+      "brand": "CLARINS",
+      "rating": 4.3,
+      "image1": "https://cdn06.nnnow.com/web-images/large/styles/LOFPIPESQ6L/1589971882298/1.jpg",
+      "price": 5600
+    },
+    {
+      "id": "2",
+      "cat": "Moisturizer",
+      "rating": 4.5,
+      "title": "UV Plus SPF50/PA++++ Sunscreen - Pink",
+      "brand": "CLARINS",
+      "image1": "https://cdn15.nnnow.com/web-images/large/styles/CIJN5OVIGSD/1589972320734/1.jpg",
+      "price": 2750
+    },
+    {
+      "id": "3",
+      "cat": "Cream",
+      "rating": 4.9,
+      "title": "Hydra Essentiel Moisturizes And Quenches Silky Cream - Normal To Dry Skin",
+      "brand": "CLARINS",
+      "image1": "https://cdn19.nnnow.com/web-images/large/styles/2LJ12O78WZ7/1594031464988/1.jpg",
+      "price": 1980
+    },
+    {
+      "id": "4",
+      "cat": "Cream",
+      "rating": 4.1,
+      "title": "Hydra Essentiel Moisturizes And Quenches Emulsion - All Skin Types",
+      "brand": "CLARINS",
+      "image1": "https://cdn07.nnnow.com/web-images/large/styles/7PWTS6YKAIF/1594031464962/1.jpg",
+      "price": 3450
+    },
+    {
+      "id": "5",
+      "rating": 4.2,
+      "cat": "Moisturizer",
+      "title": "BB Beauty Perfector SPF 30/PA+++ - 02 Natural",
+      "brand": "CLARINS",
+      "image1": "https://cdn08.nnnow.com/web-images/large/styles/OH56DB13XZX/1594031464957/1.jpg",
+      "price": 2850
+    },
+    {
+      "id": "6",
+      "rating": 2.4,
+      "cat": "Moisturizer",
+      "title": "Super Moisture Balm",
+      "brand": "CLARINS",
+      "image1": "https://cdn14.nnnow.com/web-images/large/styles/PN6C0CKP89A/1589971599297/1.jpg",
+      "price": 2800
+    },
+    {
+      "id": "7",
+      "rating": 3.9,
+      "cat": "Facial Gel",
+      "title": "Light Hydrating Facial Gel - Pure Rosewater",
+      "brand": "FOREST ESSENTIALS",
+      "image1": "https://cdn04.nnnow.com/web-images/large/styles/HDK6RRWVMD2/1592914538314/1.jpg",
+      "price": 1450
+    },
+    {
+      "id": "8",
+      "rating": 4.4,
+      "cat": "Cream",
+      "title": "Light Day Lotion With Lavender And Neroli - Normal Towards Oily Skin",
+      "brand": "FOREST ESSENTIALS",
+      "image1": "https://cdn16.nnnow.com/web-images/large/styles/YXY8PHL6GLX/1487240531815/1.jpg",
+      "price": 2025
+    },
+    {
+      "id": "9",
+      "rating": 4.5,
+      "cat": "Moisturizer",
+      "title": "Facial Tonic Mist - Bela",
+      "brand": "FOREST ESSENTIALS",
+      "image1": "https://cdn04.nnnow.com/web-images/large/styles/K6ME556V4CR/1612251833198/1.jpg",
+      "price": 1150
+    },
+    {
+      "id": "10",
+      "rating": 4.9,
+      "cat": "Cream",
+      "title": "Light Day Lotion With Madurai Jasmine And Mogra - Normal And Combination Skin",
+      "brand": "FOREST ESSENTIALS",
+      "image1": "https://cdn14.nnnow.com/web-images/large/styles/HBVVG1KR385/1612250784265/1.jpg",
+      "price": 2025
+    },
+    {
+      "id": "11",
+      "rating": 4.8,
+      "cat": "Moisturizer",
+      "title": "Facial Tonic Mist - Bela",
+      "brand": "FOREST ESSENTIALS",
+      "image1": "https://cdn11.nnnow.com/web-images/large/styles/X4IKS7LVNN6/1588586627658/1.jpg",
+      "price": 750
+    },
+    {
+      "id": "12",
+      "rating": 4.3,
+      "cat": "Cream",
+      "title": "Sanjeevani Beauty Elixir",
+      "brand": "FOREST ESSENTIALS",
+      "image1": "https://cdn06.nnnow.com/web-images/large/styles/U2DNRKQ0GA1/1614353172661/1.jpg",
+      "price": 3625
+    },
+    {
+      "id": "13",
+      "rating": 4.9,
+      "cat": "Moisturizer",
+      "title": "Luminizing Surge Moisturizer",
+      "brand": "SHISEIDO",
+      "image1": "https://cdn09.nnnow.com/web-images/large/styles/JXGUBJ8P87J/1519035539735/1.jpg",
+      "price": 4200
+    },
+    {
+      "id": "14",
+      "rating": 3.9,
+      "cat": "Moisturizer",
+      "title": "Waso Color-Smart Day Time Moisturizer Oil-Free",
+      "brand": "SHISEIDO",
+      "image1": "https://cdn14.nnnow.com/web-images/large/styles/0235QYQLU6R/1535611149325/1.jpg",
+      "image2": "https://cdn12.nnnow.com/web-images/large/styles/0235QYQLU6R/1535611149326/2.jpg",
+      "image3": "https://cdn09.nnnow.com/web-images/large/styles/0235QYQLU6R/1618914260104/50.jpg",
+      "color": ["rgb(244,244,244)"],
+      "size": ["50 ML"],
+      "price": 2700
+    },
+    {
+      "id": "15",
+      "rating": 3.8,
+      "cat": "Cream",
+      "title": "Benefiance Wrinkle Resist 24 Balancing Softener Lotion - Normal To Dry Skin",
+      "brand": "SHISEIDO",
+      "image1": "https://cdn12.nnnow.com/web-images/large/styles/3PIIJQS1EJR/1495791489684/1.jpg",
+      "price": 3350
+    },
+    {
+      "id": "16",
+      "rating": 3.9,
+      "cat": "Moisturizer",
+      "title": "Essential Energy Moisturizing Gel Cream",
+      "brand": "SHISEIDO",
+      "image1": "https://cdn13.nnnow.com/web-images/large/styles/LIZSZHSZIRA/1542965062675/1.jpg",
+      "price": 3700
+    },
+    {
+      "id": "17",
+      "rating": 4.1,
+      "cat": "Moisturizer",
+      "title": "Treatment Softener Enriched Moisturiser",
+      "brand": "SHISEIDO",
+      "image1": "https://cdn11.nnnow.com/web-images/large/styles/NCNYKTBQ3CM/1593686852308/1.jpg",
+      "price": 3600
+    },
+    {
+      "id": "18",
+      "rating": 4.9,
+      "cat": "Moisturizer",
+      "title": "Waso Fresh Jelly Lotion",
+      "brand": "SHISEIDO",
+      "image1": "https://cdn07.nnnow.com/web-images/large/styles/QFH4QNAOP8R/1535611149409/1.jpg",
+      "price": 2300
+    },
+    {
+      "id": "19",
+      "rating": 4.6,
+      "cat": "Cream",
+      "title": "Essential Energy Day Emulsion",
+      "brand": "SHISEIDO",
+      "image1": "https://cdn10.nnnow.com/web-images/large/styles/HUGEDZ5AGW4/1593683099976/1.jpg",
+      "price": 3700
+    }
   ]
 }
+
+
+

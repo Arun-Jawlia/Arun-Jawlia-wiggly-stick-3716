@@ -1,0 +1,11 @@
+.sort{
+    margin-top: 2rem;
+    margin-bottom: 2rem;    
+}
+select{
+    padding:10px 30px;
+    border: 2px solid;
+}
+.filterby>div{
+    margin-bottom: 30px;
+}

@@ -1,0 +1,50 @@
+.main-div{
+    border:1px solid;
+    display: flex;
+}
+.filtering{
+    width: 23%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+.product-data-main{
+    width: 100%;
+    margin-left: 15px;
+    /* border: 3px solid green; */
+}
+label{
+    font-weight: bold;
+    margin-right: 1rem;
+}
+.sorting{  
+    display: flex;
+    width:100%;
+ 
+    /* border: 4px solid blue;  */
+    justify-content: flex-end;
+}
+
+
+.filter-option{
+display: flex;
+padding:8px 10px;
+border: 2px solid;
+justify-content: space-between;
+}
+
+.product-data{
+  width:100%;
+   height: 85%;
+    /* border: 4px solid red;   */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+    justify-items: center;
+    gap: 30px; 
+}
+.products-offer{
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    gap:20px;
+    
+}
