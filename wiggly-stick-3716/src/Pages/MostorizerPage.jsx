@@ -15,14 +15,10 @@ import {
     AccordionIcon,
 // <<<<<<< HEAD
   } from '@chakra-ui/react'
-// import Navbar from '../Components/Navbar/Navbar';
-// // =======
-//   } from '@chakra-ui/react';
-import ScrollButton from '../Components/Scrollbutton';
 import Navbar from '../Components/Navbar/Navbar';
+import ScrollButton from '../Components/Scrollbutton';
 
 
-// >>>>>>> 0cfc6d5fa1d00112e90e958234bf590a27ea013a
 function MostorizerPage() {
     const data = useSelector((state) => state.allData.productData);
    
@@ -50,11 +46,7 @@ function MostorizerPage() {
     
   return (
     <>
-{/* <<<<<<< HEAD */}
-    {/* <Navbar/> */}
-=======
     <Navbar/>
-{/* >>>>>>> 0cfc6d5fa1d00112e90e958234bf590a27ea013a */}
     <Box>
     <h3 style={{textAlign: "left",marginLeft:"8%"}}>SEPHORA / Home/Skincare /
  <span style={{color:"Pink"}}>Face & Skin Moisturizers</span></h3>
