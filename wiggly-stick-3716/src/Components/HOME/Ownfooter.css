@@ -1,0 +1,42 @@
+.header{
+   color: black;
+   font-size: 23px;
+   font-weight: bold;
+}
+.passage{
+    height: 150px;
+   padding-top: 3%;
+    width: 100%;
+    background-color: rgb(246, 242, 242);
+}
+.Take-email{
+    width: 300px;
+    padding: 9px;
+}
+.Post-email{
+    color: white;
+    background-color: black;
+    width: 120px;
+    height: 45px;
+}
+.header1{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bolder;
+  justify-content: center;
+    display: flex;
+    gap: 50px;
+}
+.header1 h1:hover {
+    color: rgb(225, 74, 100);
+    cursor: pointer;
+}
+.header2{
+    justify-content: center;
+    display: flex;
+    gap: 15px;
+}
+.header2 p:hover {
+    color: rgb(225, 74, 100);
+    cursor: pointer;
+}

@@ -1,0 +1,60 @@
+.App {
+/* display: flex; */
+/* justify-content: center;
+align-items: center; */
+/* height: 100vh; */
+flex-direction: column;
+background-color: #dfdbe5;
+overflow: scroll;
+
+}
+
+.user-image{
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  width:100%;
+  height:190px;
+/* overflow: scroll; */
+}
+
+/* .slide-content{
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  width: 100%;
+  height:400px;
+
+} */
+/* .swiper-container{
+  background-color: rgd(218, 229, 253);
+  height: 50%;
+  width:70%;
+  box-shadow: 4px 4px 5px rgba(0,0,0,0.2);
+  border-radius: 10px;
+} */
+
+/* .slider{
+
+} */
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
