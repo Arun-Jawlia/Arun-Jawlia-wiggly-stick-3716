@@ -1,4 +1,4 @@
-import * as types from "./actionTypes";
+import * as types from "./Actiontypes";
 
 const initialState = {
   products: [],
@@ -6,7 +6,7 @@ const initialState = {
   isError: false,
 };
 
-export const reducer = (state = initialState, action) => {
+export const Foundreducer = (state = initialState, action) => {
   const { type, payload } = action;
   switch (type) {
     case types.GET_PRODUCTS_REQUEST:
@@ -32,5 +32,5 @@ export const reducer = (state = initialState, action) => {
     default:
       return state;
   }
-  return state;
+ 
 };

@@ -1,25 +1,18 @@
 import React from "react";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import "./FoundationPage.css";
-import axios from "axios";
 import { useEffect } from "react";
-import { useState } from "react";
 import FoundationCard from "../../Components/Foundation/FoundationCard";
 import { useDispatch, useSelector } from "react-redux";
-import { getProductsData } from "../../Redux/FoundationPageReducer/actions";
+
 import SortData from "../../Components/Foundation/SortData";
 import { useLocation, useSearchParams } from "react-router-dom";
-    
-    // const getData = (url) =>
-    //   axios.get(url).then((res) => {
-    //     return res.data;
-    //   });
-
+import { getProductsData } from "../../Redux/Action";
  
 const FoundationPage=()=>{
    const dispatch = useDispatch();
     const [searchParams] = useSearchParams();
-   const products = useSelector((store) => store.products);
+   const products = useSelector((store) => store.foundData.products);
    
    //const [data,setData]=useState(item);
  const location = useLocation();
