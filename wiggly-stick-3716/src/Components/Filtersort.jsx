@@ -64,7 +64,7 @@ function Filtersort() {
    <br />
         
   <div>
-   <h2 className='filter-header'>SHORT BY THE PRICE</h2>
+   <h2 className='filter-header'>SORT BY THE PRICE</h2>
   </div>
   <div onChange={handleShort}>
   <Box>
