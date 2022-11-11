@@ -1,12 +1,29 @@
-import React from 'react'
+import {
+  Box,
+  Container,
+  FormControl,
+  FormLabel,
+  Input,
+  InputGroup,
+  InputLeftAddon,
+  InputRightAddon,
+  Stack,
+  TagLabel,
+} from "@chakra-ui/react";
+import React from "react";
 
 const Address = () => {
   return (
-    <div className='Address_container'>
+    <Box>
+      <Container  maxW="50%">
+      
+      <FormControl>
+        <FormLabel>Email address</FormLabel>
+        <Input type="email" />
+      </FormControl>
+    </Container>
+    </Box>
+  );
+};
 
-
-    </div>
-  )
-}
-
-export default Address
+export default Address;
