@@ -13,12 +13,15 @@ import {
     AccordionButton,
     AccordionPanel,
     AccordionIcon,
-  } from '@chakra-ui/react'
+    
+  } from '@chakra-ui/react';
+
 import Navbar from '../Components/Navbar/Navbar';
-import ScrollButton from '../Components/Scrollbutton';
+import Scroll from '../Components/HOME/Scroll';
 
 
-function MostorizerPage() {
+
+function MostorizerPage({handleProducts}) {
     const data = useSelector((state) => state.allData.productData);
    
      const dispatch = useDispatch();
@@ -62,7 +65,7 @@ function MostorizerPage() {
         <hr />
         <br />
         <h1 className='filter-header'>FILTER BY</h1>
-        <ScrollButton />
+        
         <div>
  <Accordion display={"grid"} gap={"20px"} defaultIndex={[0]} allowMultiple>
   <AccordionItem>
@@ -236,8 +239,10 @@ function MostorizerPage() {
 
         <Box  className='single-product' key = {items.id} >
         <HoverEffect
+        items = {items}
         image = {items.image1}
         id = {items.id}
+        handleProducts = {handleProducts}
         />
         <Link to = {`/products/${items.id}`}>
         <Box  className='single-product'>
@@ -253,6 +258,7 @@ function MostorizerPage() {
    </Box>
    {/* this is the email componenyt */}
    <br /><br />
+   <Scroll/>
    <Box className='passage'>
             <h1 className='header'>GET THE LATEST NEWS & OFFERS IN BEAUTY & FASHION</h1>
             <input className='Take-email' type="email" placeholder = "Enter Your Email Adress" />

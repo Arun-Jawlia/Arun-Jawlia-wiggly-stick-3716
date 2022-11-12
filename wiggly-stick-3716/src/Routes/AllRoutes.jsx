@@ -9,21 +9,22 @@ import Payment from '../Components/Payment/Payment'
 import MostorizerPage from '../Pages/MostorizerPage'
 import Singleitemshow from '../Pages/Singleitemshow'
 import FoundationPage from '../Pages/Foundation/FoundationPage'
+import Cart from '../Pages/Cart'
 
-const AllRoutes = () => {
+const AllRoutes = ({cartItems,handleProducts,handleRemove}) => {
   return (
     <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/login' element={<Login/>}/>
         <Route path='/signup' element={<Signup/>}/>
-        <Route path='/moisturizer' element={<MostorizerPage/>}/>
+        <Route path='/moisturizer' element={<MostorizerPage  handleProducts = {handleProducts} />}/>
         <Route path='/foundation' element={<FoundationPage/>} />
-        <Route path='/checkout' element={<Checkout/>}/>
+        <Route path='/checkout' element={<Checkout cartItems={cartItems}/>}/>
         <Route path='/address' element={<Address/>}/>
         <Route path='/payment' element={<Payment/>}/>
-        <Route path='/cart' element={<h1>Cart</h1>}/>
+        <Route path='/cart' element={<Cart cartItems = {cartItems} handleProducts = {handleProducts} handleRemove = {handleRemove} />}/>
         <Route path='/favourite' element={<h1>Favourite</h1>}/>
-        <Route path = "/products/:productId" element = {<Singleitemshow/>}/>
+        <Route path = "/products/:productId" element = {<Singleitemshow handleProducts = {handleProducts} />}/>
        
 
     </Routes>

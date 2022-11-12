@@ -3,7 +3,7 @@ import { Box } from '@chakra-ui/react';
 import { BsBag,BsHeartFill } from "react-icons/bs";
 import './HoverEffect.css';
 import { Link } from 'react-router-dom';
-function HoverEffect({image,id}) {
+function HoverEffect({image}) {
   return (
     <Box className='hover-effect'>
  
@@ -17,11 +17,13 @@ function HoverEffect({image,id}) {
 					
 				</div>
 				<ul className="sci">
+                   <Link to="/cart">
 					<li>
-						<BsBag size={30}/>
+						<BsBag  size={30}/>
 					
 						
 					</li>
+					</Link>
 					<li>
 						<BsHeartFill size ={30}/>
 						

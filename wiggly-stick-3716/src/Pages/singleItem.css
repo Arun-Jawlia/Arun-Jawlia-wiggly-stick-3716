@@ -2,28 +2,130 @@
     height: auto;
     width: 85%;
     margin: auto;
-    border: 2px solid black;
+  
     display: flex;
 }
 .single-item-main-one{
-    border: 2px solid red;
+  
     width: 70%;
     
 }
 .single-item-main-two{
     font-size: 13px;
     text-align: left;
-    border: 2px solid purple;
     width: 30%;
-    line-height: 180%;
+    line-height: 220%;
 
 }
-.single-item-main-two p {
-    color: rgb(230, 39, 71);
-}
+
 .offer{
    height: 40px;
    width: 50px;
    border: 3px solid rgb(213, 213, 213);
    border-style: dashed;
+}
+.show-headings{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.show-headings1{
+    font-size: 18px;
+    font-weight: bold;
+     padding-left: -12px;
+
+}
+.size-box{
+    height: 40px;
+    width: 60px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 4%;
+    border: 2px solid rgb(35, 35, 35);
+    border-style: dashed;
+}
+.important-box{
+    width: 100%;
+    display: flex;
+    height: 110px;
+    margin-top: 2%;
+    gap: 5%;
+    margin: 12px 0 20px;
+    border: 2px solid #f28216;
+    padding: 20px ;
+    font-size: .77778rem;
+    line-height: 20px;
+}
+.small-image{
+    height: 70px;
+    width: 70px;
+    border: 4px solid rgb(210, 210, 210);
+    margin-top: 8%;
+
+}
+.add-bag{
+    background: #f39;
+    color: #fff;
+    border-color: #f39;
+    position: relative;
+    width: 100%;
+    padding: 14px 0;
+   font-size: 20px;
+   font-weight: bolder;
+    text-align: center;
+    margin-top: 8%;
+}
+.icon-box{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 8%;
+}
+.return-box{
+    display: flex;
+    justify-content: space-between;
+    gap: -4%;
+    margin-top: 8%;
+    padding: 40px;
+    height: 120px;
+   width: 100%;
+   background-color: rgb(233, 233, 233);
+}
+.return-img{
+    height: 50px;
+    width: 60px;
+}
+.random-add{
+    margin-top: 8%;
+}
+.dalivery-box{
+    height: 120px;
+    margin-top: 8%;
+   line-height: 40px;
+}
+.input-email{
+    height: 42px;
+    padding: 12px;
+    width: 220px;
+    background-color: #f3f3f3;
+   
+}
+.input-btn{
+   border: 2px solid gray;
+   height:42.5px; 
+   width:130px;
+   font-size: 18px;
+   font-weight: bold;
+   color: gray;
+   text-align: center;
+   margin-left: 5%;
+   padding-top: -3px;
+   margin-top:5%;
+}
+.Image-single{
+    height: 800px;
+    width: 500px;
+    margin: auto;
 }

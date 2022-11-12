@@ -3,10 +3,10 @@ import "./checkout.css";
 import myLogo from "../../assets/beautyHubLogo.png";
 import { useState } from "react";
 
-const Checkout = () => {
+const Checkout = ({cartItems}) => {
 
   const [address , setAddress]= useState('')
-
+ console.log(cartItems);
 
   return (
     <div className="checkout" id="checkout">
