@@ -2,11 +2,35 @@ import React from "react";
 import "./checkout.css";
 import myLogo from "../../assets/beautyHubLogo.png";
 import { useState } from "react";
+import { Link } from "react-router-dom";
+
+const initialValue = {
+  name: "",
+  address: "",
+  pincode: "",
+  mobile: "",
+  city: "",
+  country: "India",
+};
 
 const Checkout = () => {
+  const [toggle, showMenu] = useState(false);
+  const [address, setAddress] = useState("");
+  const [text, setText] = useState(initialValue);
 
-  const [address , setAddress]= useState('')
+  const handleAddress = (e) => {
+    const { name: key, value } = e.target;
+    setText({ ...text, [key]: value });
+  };
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setAddress(...address, text);
+    setText(initialValue);
+    showMenu(false);
+  };
+  // console.log(address)
+  // console.log("address", address.name);
 
   return (
     <div className="checkout" id="checkout">
@@ -26,7 +50,7 @@ const Checkout = () => {
         {/* checkout section 2 */}
         <div className="checkout_top_2 flex">
           <div className="flex checkout_icon">CHECKOUT</div>
-          <div className=" checkout_2_mid">
+          {/* <div className=" checkout_2_mid">
             <div className="flex">
               <div className="flex">
                 <div>1</div>
@@ -37,7 +61,7 @@ const Checkout = () => {
                 <div>Payment</div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -54,19 +78,119 @@ const Checkout = () => {
                   fontSize: "14px",
                 }}
               >
-                <p>Shipping address
-
-                <button className="changeBtn">Change</button>
+                <p>
+                  Shipping address
+                  <button
+                    className="changeBtn"
+                    onClick={() => showMenu(!toggle)}
+                  >
+                    Change
+                  </button>
                 </p>
               </div>
               <div style={{ fontSize: "12px", padding: "0px 30px 0px 10px" }}>
                 <div>
-                  <p>Delivery Address</p>
+                  <p>Delivery Address : </p>
+                </div>
+                <div>
+                  <form>
+                    <div>
+                      <div
+                        className={
+                          toggle
+                            ? "payment_method_detail "
+                            : "payment_method_hide"
+                        }
+                      >
+                        <h1>Add Address</h1>
+                        <div>
+                          <div>
+                            <label>Name</label>
+                          </div>
+                          <div>
+                            <input
+                              type="text"
+                              value={text.name}
+                              onChange={handleAddress}
+                              placeholder="Name"
+                              name="name"
+                            />
+                          </div>
+                        </div>
+                        <div>
+                          <div>
+                            <label>Address</label>
+                          </div>
+                          <div>
+                            <textarea
+                              className="full_address"
+                              value={text.address}
+                              type="text"
+                              onChange={handleAddress}
+                              placeholder="Full Address"
+                              name="address"
+                            />
+                          </div>
+                        </div>
+                        <div>
+                          <div>
+                            <label>Mobile</label>
+                          </div>
+                          <div>
+                            <input
+                              type="text"
+                              value={text.mobile}
+                              onChange={handleAddress}
+                              placeholder="Mobile Number"
+                              name="mobile"
+                            />
+                          </div>
+                        </div>
+                        <div>
+                          <div>
+                            <label>Pincode</label>
+                          </div>
+                          <div>
+                            <input
+                              type="number"
+                              value={text.pincode}
+                              onChange={handleAddress}
+                              placeholder="Pincode"
+                              name="pincode"
+                            />
+                          </div>
+                        </div>
+                        <div>
+                          <div>
+                            <label>City</label>
+                          </div>
+                          <div>
+                            <input
+                              type="text"
+                              value={text.city}
+                              onChange={handleAddress}
+                              placeholder="City"
+                              name="city"
+                            />
+                          </div>
+                        </div>
+
+                        <button onClick={handleSubmit}>Add</button>
+                      </div>
+                    </div>
+                  </form>
                 </div>
                 <div>
                   <p>
-                    Arun Jawlia, H. No 753 pana mojaan Gurudware wali gali,
-                    Delhi New Delhi, Delhi - 110039 9718653508
+                    {address.name === undefined ? "" : address.name}
+                    <br />
+                    {address.address === undefined ? "" : address.address}
+                    <br />
+                    {address.city === undefined
+                      ? ""
+                      : `${address.city},${address.country}`}
+                    <br />
+                    {address.pincode === undefined ? "" : address.pincode}
                   </p>
                 </div>
               </div>
@@ -162,7 +286,10 @@ const Checkout = () => {
                 <div>Rs 1,000</div>
               </span>
             </div>
-            <div className="price_continue">CONTINUE</div>
+            <Link to="/payment">
+              {" "}
+              <div className="price_continue">CONTINUE</div>
+            </Link>
           </div>
         </div>
       </div>
@@ -170,14 +297,19 @@ const Checkout = () => {
       <div className="checkout_Footer">
         <div className="checkout_footer_main">
           <div className="checkout_footer_left">
-            <img src="https://static.nnnow.com/Verified_by_Visa_logo.png" alt="" />
-            <img src="https://static.nnnow.com/verified-mastercard.png" alt="" />
+            <img
+              src="https://static.nnnow.com/Verified_by_Visa_logo.png"
+              alt=""
+            />
+            <img
+              src="https://static.nnnow.com/verified-mastercard.png"
+              alt=""
+            />
             <img src="https://static.nnnow.com/verified-pci.png" alt="" />
             <img src="https://static.nnnow.com/AMEX-safekey.png" alt="" />
-          
           </div>
           <div className="checkout_footer_right">
-            <p> © 2022 NNNOW  |  Privacy Policy   |    Terms & Condition</p>
+            <p> © 2022 NNNOW | Privacy Policy | Terms & Condition</p>
           </div>
         </div>
       </div>

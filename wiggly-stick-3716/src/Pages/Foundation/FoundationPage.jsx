@@ -8,6 +8,8 @@ import { useDispatch, useSelector } from "react-redux";
 import SortData from "../../Components/Foundation/SortData";
 import { useLocation, useSearchParams } from "react-router-dom";
 import { getProductsData } from "../../Redux/Action";
+import Navbar from "../../Components/Navbar/Navbar";
+import Product_Page_Footer from "../../Components/Product_Page_Footer";
  
 const FoundationPage=()=>{
    const dispatch = useDispatch();
@@ -37,6 +39,8 @@ const FoundationPage=()=>{
 
    
     return (
+      <>
+      <div><Navbar/></div>
       <div className="main-div">
         <div className="filtering">
           <div className="filterby">
@@ -134,6 +138,8 @@ const FoundationPage=()=>{
           </div>
         </div>
       </div>
+      <div><Product_Page_Footer/></div>
+      </>
     );
 }
 
