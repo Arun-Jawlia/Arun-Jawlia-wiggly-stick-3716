@@ -16,8 +16,22 @@ const initialValue = {
 
 const Checkout = ({cartItems}) => {
 
-  const [address , setAddress]= useState('')
- console.log(cartItems);
+  const [toggle, showMenu] = useState(false);
+  const [address, setAddress] = useState("");
+  const [text, setText] = useState(initialValue);
+
+  const handleAddress = (e) => {
+    const { name: key, value } = e.target;
+    setText({ ...text, [key]: value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setAddress(...address, text);
+    setText(initialValue);
+    alert(`Address add successfully`)
+    showMenu(false);
+  };
 
   return (
     <div className="checkout" id="checkout">

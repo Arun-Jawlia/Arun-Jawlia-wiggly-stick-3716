@@ -19,7 +19,6 @@ const AllRoutes = ({cartItems,handleProducts,handleRemove}) => {
         <Route path='/moisturizer' element={<MostorizerPage  handleProducts = {handleProducts} />}/>
         <Route path='/foundation' element={<FoundationPage/>} />
         <Route path='/checkout' element={<Checkout cartItems={cartItems}/>}/>
-        <Route path='/address' element={<Address/>}/>
         <Route path='/payment' element={<Payment/>}/>
         <Route path='/cart' element={<Cart cartItems = {cartItems} handleProducts = {handleProducts} handleRemove = {handleRemove} />}/>
         <Route path='/favourite' element={<h1>Favourite</h1>}/>
