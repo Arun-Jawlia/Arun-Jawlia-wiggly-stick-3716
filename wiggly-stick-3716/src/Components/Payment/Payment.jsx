@@ -32,7 +32,8 @@ const Payment = () => {
       <div className="checkout_section_2">
         {/* checkout section 2 */}
         <div className="checkout_top_2 flex">
-          <div className=" checkout_2_mid payment_bar">
+          <div className="flex checkout_icon">CHECKOUT</div>
+          {/* <div className=" checkout_2_mid">
             <div className="flex">
               <div className="flex">
                 <div>1</div>
@@ -43,7 +44,7 @@ const Payment = () => {
                 <div>Payment</div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 

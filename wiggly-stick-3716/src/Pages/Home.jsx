@@ -29,7 +29,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div style={{marginTop:"70px",marginBottom:"30px"}}>
+        <div style={{marginTop:"70px",marginBottom:"30px",textAlign:'center', fontWeight:'700', fontSize:'20px'}}>
           <h2>Hottest On The Scene</h2>
           <CardContainer/>
         </div>
