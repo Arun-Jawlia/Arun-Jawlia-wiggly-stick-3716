@@ -328,7 +328,21 @@ a{
 
 
 
+
 }
+
+
+.new_address{
+    border: 1px solid rgb(213, 211, 211);
+    max-width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.new_address_2{
+    border: none;
+}
+
 /* 
 .payment_method_detail label{
     font-weight: 200;
