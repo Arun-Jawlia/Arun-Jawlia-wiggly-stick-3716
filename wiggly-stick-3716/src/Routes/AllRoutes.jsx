@@ -9,6 +9,7 @@ import MostorizerPage from '../Pages/MostorizerPage'
 import Singleitemshow from '../Pages/Singleitemshow'
 import FoundationPage from '../Pages/Foundation/FoundationPage'
 import { NotFound } from '../Components/Not found/NotFound'
+import { Otp } from '../Components/Otp Page/Otp'
 
 const AllRoutes = () => {
   return (
@@ -22,7 +23,8 @@ const AllRoutes = () => {
         <Route path='/payment' element={<Payment/>}/>
         <Route path='/cart' element={<h1>Cart</h1>}/>
         <Route path='/favourite' element={<h1>Favourite</h1>}/>
-        <Route path = "/products/:productId" element = {<Singleitemshow/>}/>
+        <Route path ="/products/:productId" element = {<Singleitemshow/>}/>
+        <Route  path='/otp' element={<Otp/>}/>
         <Route path='*' element={<NotFound/>}/>
        
 
