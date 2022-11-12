@@ -2,7 +2,7 @@ import React from 'react'
 import "./oneCard.css"
 const DisplayCard = () => {
   return (
-    <div className='card'>
+    <div className='card' style={{textAlign:'center'}}>
         <h2 style={{marginTop:"40px"}}>GET THE LATEST NEWS & OFFERS IN BEAUTY & FASHION</h2>
     
     <div className='btn_inp'>

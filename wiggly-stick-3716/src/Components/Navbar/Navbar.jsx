@@ -66,7 +66,7 @@ const Navbar = () => {
           <input
             type="text"
             name=""
-            placeholder="Search Beauty hub"
+            placeholder="Search.."
             id="searchbar"
           />
         </div>
@@ -133,7 +133,7 @@ const Navbar = () => {
                 <div>Contact Lenses</div>
               </div>
 
-              <div>
+              {/* <div>
                 <h3>LIP</h3>
                 <div>lipstick</div>
                 <div>Lip Stain</div>
@@ -141,15 +141,15 @@ const Navbar = () => {
                 <div>Lip Liner</div>
                 <div>Lip Balm</div>
                 <div></div>
-              </div>
+              </div> */}
 
-              <div>
+              {/* <div>
                 <h3>CHEEK</h3>
                 <div>Blush</div>
                 <div>Bronzer</div>
                 <div>Highlighter</div>
                 <div>Face Oils</div>
-              </div>
+              </div> */}
 
               {/* <!--  --> */}
             </div>
@@ -178,7 +178,7 @@ const Navbar = () => {
                 <div>Toners</div>
                 <div>Hand Sanitizers</div>
               </div>
-
+{/* 
               <div>
                 <h3>MASKS</h3>
                 <div>Face Mask</div>
@@ -190,7 +190,7 @@ const Navbar = () => {
                 <div>Hair Masks</div>
                 <div>Hand Masks</div>
                 <div>Foot Masks</div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -257,9 +257,3 @@ const Navbar = () => {
 
 export default Navbar;
 
-{
-  /* hello */
-}
-{
-  // Pull request is not updated
-}

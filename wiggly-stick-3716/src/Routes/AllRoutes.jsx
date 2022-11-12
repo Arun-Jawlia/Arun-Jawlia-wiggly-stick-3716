@@ -8,6 +8,7 @@ import Payment from '../Components/Payment/Payment'
 import MostorizerPage from '../Pages/MostorizerPage'
 import Singleitemshow from '../Pages/Singleitemshow'
 import FoundationPage from '../Pages/Foundation/FoundationPage'
+import { NotFound } from '../Components/Not found/NotFound'
 
 const AllRoutes = () => {
   return (
@@ -22,6 +23,7 @@ const AllRoutes = () => {
         <Route path='/cart' element={<h1>Cart</h1>}/>
         <Route path='/favourite' element={<h1>Favourite</h1>}/>
         <Route path = "/products/:productId" element = {<Singleitemshow/>}/>
+        <Route path='*' element={<NotFound/>}/>
        
 
     </Routes>

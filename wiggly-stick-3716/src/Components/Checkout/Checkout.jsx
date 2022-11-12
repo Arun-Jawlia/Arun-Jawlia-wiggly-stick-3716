@@ -10,6 +10,7 @@ const initialValue = {
   pincode: "",
   mobile: "",
   city: "",
+  state:'',
   country: "India",
 };
 
@@ -27,6 +28,7 @@ const Checkout = () => {
     e.preventDefault();
     setAddress(...address, text);
     setText(initialValue);
+    alert(`Address add successfully`)
     showMenu(false);
   };
   // console.log(address)
@@ -84,7 +86,7 @@ const Checkout = () => {
                     className="changeBtn"
                     onClick={() => showMenu(!toggle)}
                   >
-                    Change
+                    {address !== '' ? 'Change' : 'Add address'}
                   </button>
                 </p>
               </div>
@@ -102,7 +104,7 @@ const Checkout = () => {
                             : "payment_method_hide"
                         }
                       >
-                        <h1>Add Address</h1>
+                        <h1 style={{textAlign:'center', fontWeight:'600 ', fontSize:'20px'}}>Add Address</h1>
                         <div>
                           <div>
                             <label>Name</label>
@@ -173,6 +175,15 @@ const Checkout = () => {
                               name="city"
                             />
                           </div>
+                          <div>
+                            <input
+                              type="text"
+                              value={text.state}
+                              onChange={handleAddress}
+                              placeholder="State"
+                              name="state"
+                            />
+                          </div>
                         </div>
 
                         <button onClick={handleSubmit}>Add</button>
@@ -180,15 +191,15 @@ const Checkout = () => {
                     </div>
                   </form>
                 </div>
-                <div>
+                <div className={address === "" ? 'new_address_2' : 'new_address'}>
                   <p>
-                    {address.name === undefined ? "" : address.name}
+                    {address.name === undefined ? "" : `Name: ${address.name}`}
                     <br />
                     {address.address === undefined ? "" : address.address}
                     <br />
                     {address.city === undefined
                       ? ""
-                      : `${address.city},${address.country}`}
+                      : `${address.city} , ${address.state} ,${address.country}`}
                     <br />
                     {address.pincode === undefined ? "" : address.pincode}
                   </p>

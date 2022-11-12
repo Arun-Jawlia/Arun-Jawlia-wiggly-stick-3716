@@ -14,8 +14,8 @@
 
 /* Nav bar  */
 #navbaruppersection {
-    height: 50px;
-    width: 100%;
+    max-height: fit-content;
+    /* width: 100%; */
     
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -31,7 +31,7 @@
 #logo {
     height: 45px;
     /* margin-left: -50px; */
-    width: 60%;
+    width: 100%;
     margin: auto;
     margin-left: 20px;
     display: flex;
@@ -182,7 +182,7 @@
 /* Top Left search bar */
 #searchbar {
     border: none;
-    padding: 5px;
+    padding: 3px;
     outline: none;
     font-size: 15px;
     position: relative;
@@ -191,7 +191,7 @@
 }
 
 #searchicon {
-    height: 20px;
+    height: 16px;
     cursor: pointer;
     margin-top: 7px;
     width: 15px;
@@ -264,7 +264,7 @@
     display: none;
     position: absolute;
     background-color: white;
-    z-index: 1;
+    z-index: 99;
     line-height: 20px;
     margin-top: 11px;
     margin-left: -100px;
@@ -335,9 +335,59 @@
     margin-bottom: 15px;
     margin-top: -15px;
     border: 1px solid rgb(235, 229, 229);
+    background-color: rgb(235, 229, 229);
     color: rgb(235, 229, 229);
 }
 
 
 
 /* Navbar end */
+
+
+
+
+@media only screen and (max-width: 992px) {
+    
+    
+  }
+
+@media only screen and (max-width: 756px) {
+    #centertext{
+        display: none;
+
+    }
+
+    #navbaruppersection{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    #centertext {
+        width: 100%;
+    }
+
+    #categories{
+        grid-template-columns: repeat(4,1fr);
+        width: 70%;
+
+    }
+
+
+    .dropdownflex{
+        flex-wrap: wrap;
+    }
+
+    .dropdownflex>div{
+        padding: 10px;
+    }
+
+    #sephora{
+        height: 50px;
+    }
+    
+    
+  }
+
+@media only screen and (max-width: 550px) {
+    
+    
+  }
