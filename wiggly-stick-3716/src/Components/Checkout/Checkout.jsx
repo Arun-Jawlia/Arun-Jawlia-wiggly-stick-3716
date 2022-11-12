@@ -14,25 +14,10 @@ const initialValue = {
   country: "India",
 };
 
-const Checkout = () => {
-  const [toggle, showMenu] = useState(false);
-  const [address, setAddress] = useState("");
-  const [text, setText] = useState(initialValue);
+const Checkout = ({cartItems}) => {
 
-  const handleAddress = (e) => {
-    const { name: key, value } = e.target;
-    setText({ ...text, [key]: value });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setAddress(...address, text);
-    setText(initialValue);
-    alert(`Address add successfully`)
-    showMenu(false);
-  };
-  // console.log(address)
-  // console.log("address", address.name);
+  const [address , setAddress]= useState('')
+ console.log(cartItems);
 
   return (
     <div className="checkout" id="checkout">

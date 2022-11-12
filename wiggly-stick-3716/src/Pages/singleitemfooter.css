@@ -1,0 +1,59 @@
+.carosol-cont{
+    height: 700px;
+    width: 30%;
+    margin: auto;
+    
+}
+.user-image{
+    width:100%;
+    height:300px;
+    border: none;
+    box-shadow: none;
+  }
+  .user-photo{
+    height: 250px;
+    width: 160px;
+    margin: auto;
+    border: none;
+    box-shadow: none;
+  }
+  .tag-line{
+    text-align: center;
+    height: 150px;
+    width: 40%;
+    margin:auto;
+    font-size: 16px;
+  }
+  .user-testimonial{
+    font-size: 18px;
+    font-weight: bolder;
+  }
+  .headings3{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 6%;
+  }
+  .tabs-area{
+    height: 300px;
+    width: 100%;
+    background:rgb(130, 130, 199);
+    margin-top: 6%;
+  }
+  .tabul{
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    margin-top: 6%;
+    background-color: white;
+   
+  }
+  .tabbu{
+   
+    color: black;
+    background-color: white;
+    font-weight: bolder;
+  }
+  .tabbu-panel{
+    background-color: white;
+  }
