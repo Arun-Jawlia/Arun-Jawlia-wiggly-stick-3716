@@ -2,6 +2,7 @@ import React from "react";
 import "../Checkout/checkout.css";
 import myLogo from "../../assets/beautyHubLogo.png";
 import { useState } from "react";
+import {Link} from 'react-router-dom'
 
 const Payment = ({cartItems}) => {
   const [toggle, showMenu]= useState(false)
@@ -21,6 +22,9 @@ const Payment = ({cartItems}) => {
     
     console.log(sum)
   }
+
+
+  
  
 
   return (
@@ -44,7 +48,7 @@ const Payment = ({cartItems}) => {
       <div className="checkout_section_2">
         {/* checkout section 2 */}
         <div className="checkout_top_2 flex">
-          <div className="flex checkout_icon">CHECKOUT</div>
+          <div className="flex checkout_icon">PAYMENT</div>
           {/* <div className=" checkout_2_mid">
             <div className="flex">
               <div className="flex">
@@ -119,7 +123,7 @@ const Payment = ({cartItems}) => {
                       <input type="date" />
                     </div>
                   </div>
-                  <button>Pay</button>
+                  <Link to='/OTP'><button >Pay</button></Link>
                 </div>
               </div>
 
@@ -356,7 +360,7 @@ const Payment = ({cartItems}) => {
               </span>
               <span className="flex">
                 <div>delivery charges</div>
-                <div>Rs {sum/100}</div>
+                <div>Rs 0</div>
               </span>
 
               <div
