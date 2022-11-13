@@ -3,6 +3,7 @@ import "./checkout.css";
 import myLogo from "../../assets/beautyHubLogo.png";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 const initialValue = {
   name: "",
