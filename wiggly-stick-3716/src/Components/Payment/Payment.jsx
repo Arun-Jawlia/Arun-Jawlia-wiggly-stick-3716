@@ -2,12 +2,28 @@ import React from "react";
 import "../Checkout/checkout.css";
 import myLogo from "../../assets/beautyHubLogo.png";
 import { useState } from "react";
+import {Link} from 'react-router-dom'
 
-const Payment = () => {
+const Payment = ({cartItems}) => {
   const [toggle, showMenu]= useState(false)
   const [netBanking, showNetBanking]= useState(false)
   const [wallet, showWallet]= useState(false)
   const [upi, showUpi]= useState(false)
+  const data = cartItems
+  
+  console.log(data)
+    
+  let sum=0
+  {
+    for(let i=0;i<data.length;i++)
+    {
+      sum+=data[i].price
+    }
+    
+    console.log(sum)
+  }
+
+
   
  
 
@@ -32,7 +48,7 @@ const Payment = () => {
       <div className="checkout_section_2">
         {/* checkout section 2 */}
         <div className="checkout_top_2 flex">
-          <div className="flex checkout_icon">CHECKOUT</div>
+          <div className="flex checkout_icon">PAYMENT</div>
           {/* <div className=" checkout_2_mid">
             <div className="flex">
               <div className="flex">
@@ -54,7 +70,7 @@ const Payment = () => {
             {/* Address */}
             <div className="flex total_amount">
               <div>TOTAL PAYABLE AMOUNT</div>
-              <div>Rs 1,000</div>
+              <div>Rs {sum}</div>
             </div>
 
             {/* Horizontal row */}
@@ -107,7 +123,7 @@ const Payment = () => {
                       <input type="date" />
                     </div>
                   </div>
-                  <button>Pay</button>
+                  <Link to='/OTP'><button >Pay</button></Link>
                 </div>
               </div>
 
@@ -332,7 +348,7 @@ const Payment = () => {
               <h1 style={{ fontWeight: "600", fontSize: "25px" }}> Overview</h1>
               <span className="flex">
                 <div>Subtotal</div>
-                <div>Rs 1,000</div>
+                <div>Rs {sum}</div>
               </span>
               <span className="flex">
                 <div>Discount</div>
@@ -358,7 +374,7 @@ const Payment = () => {
 
               <span className="flex">
                 <div>Total</div>
-                <div>Rs 1,000</div>
+                <div>Rs {sum}</div>
               </span>
             </div>
             <div className="price_continue">PLACE ORDER</div>
