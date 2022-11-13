@@ -1,6 +1,7 @@
 .main-div{
-    border:1px solid;
+   
     display: flex;
+    margin: 5%;
 }
 .filtering{
     width: 23%;

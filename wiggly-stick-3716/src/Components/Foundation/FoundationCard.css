@@ -118,3 +118,7 @@ cursor: pointer;
 .hover-animation:hover .overlay-bottom{
     height: 25%;
 }
+.info:hover{
+ color: rgba(0, 0, 255, 0.603);
+ cursor: pointer;
+}

@@ -41,7 +41,9 @@ const FoundationPage=()=>{
     return (
       <>
       <div><Navbar/></div>
+      <h1>{products.path}</h1>
       <div className="main-div">
+       
         <div className="filtering">
           <div className="filterby">
             <p

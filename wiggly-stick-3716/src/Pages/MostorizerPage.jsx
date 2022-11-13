@@ -50,7 +50,7 @@ function MostorizerPage({handleProducts}) {
     <>
     <Navbar/>
     <Box>
-    <h3 style={{textAlign: "left",marginLeft:"8%"}}>SEPHORA / Home/Skincare /
+  <h3 style={{textAlign: "left",marginLeft:"8%"}}>SEPHORA / Home/Skincare /
  <span style={{color:"Pink"}}>Face & Skin Moisturizers</span></h3>
  
  </Box>
