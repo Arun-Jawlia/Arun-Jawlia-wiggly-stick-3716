@@ -65,7 +65,7 @@ export const Login = () => {
       <div className="forapper">
         
     <div className="adorm">
-      <p style={{border:"0px",margin:"0px",padding:"5px",color:"rgb(255,51,153)",textAlign:"left"}}> <Link to={`/home`}>Back to Home</Link></p>
+      <p style={{border:"0px",margin:"0px",padding:"5px",color:"rgb(255,51,153)",textAlign:"left"}}> <Link to={`/`}>Back to Home</Link></p>
     <p className="trncs">LOGIN</p>
     <br />
     <p className="trncs">Enter your Phone / Email</p>

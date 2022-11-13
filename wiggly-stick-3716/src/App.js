@@ -2,9 +2,11 @@ import "./App.css";
 import React,{useState} from "react";
 import AllRoutes from "./Routes/AllRoutes";
 import { Alert } from "react-bootstrap";
+import { useSelector } from 'react-redux';
 
 function App() {
   const [cartItems,setCartItems] = useState([]);
+  // const cartItems=useSelector((state)=>state.cartItems)
 
 // this is for fetching all the cart data
   const handleProducts = (product) =>{
@@ -47,6 +49,7 @@ function App() {
        
       />
       
+     
     </div>
   );
 }
