@@ -3,12 +3,24 @@ import "../Checkout/checkout.css";
 import myLogo from "../../assets/beautyHubLogo.png";
 import { useState } from "react";
 
-const Payment = () => {
+const Payment = ({cartItems}) => {
   const [toggle, showMenu]= useState(false)
   const [netBanking, showNetBanking]= useState(false)
   const [wallet, showWallet]= useState(false)
   const [upi, showUpi]= useState(false)
+  const data = cartItems
   
+  console.log(data)
+    
+  let sum=0
+  {
+    for(let i=0;i<data.length;i++)
+    {
+      sum+=data[i].price
+    }
+    
+    console.log(sum)
+  }
  
 
   return (
@@ -54,7 +66,7 @@ const Payment = () => {
             {/* Address */}
             <div className="flex total_amount">
               <div>TOTAL PAYABLE AMOUNT</div>
-              <div>Rs 1,000</div>
+              <div>Rs {sum}</div>
             </div>
 
             {/* Horizontal row */}
@@ -332,7 +344,7 @@ const Payment = () => {
               <h1 style={{ fontWeight: "600", fontSize: "25px" }}> Overview</h1>
               <span className="flex">
                 <div>Subtotal</div>
-                <div>Rs 1,000</div>
+                <div>Rs {sum}</div>
               </span>
               <span className="flex">
                 <div>Discount</div>
@@ -344,7 +356,7 @@ const Payment = () => {
               </span>
               <span className="flex">
                 <div>delivery charges</div>
-                <div>Rs 0</div>
+                <div>Rs {sum/100}</div>
               </span>
 
               <div
@@ -358,7 +370,7 @@ const Payment = () => {
 
               <span className="flex">
                 <div>Total</div>
-                <div>Rs 1,000</div>
+                <div>Rs {sum}</div>
               </span>
             </div>
             <div className="price_continue">PLACE ORDER</div>
