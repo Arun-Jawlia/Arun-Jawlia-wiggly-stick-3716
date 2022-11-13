@@ -7,7 +7,7 @@ import { SingleReducer } from "./SingleReducer";
 const reducer = combineReducers({
     allData:ProductsReducer,
     singleData:SingleReducer,
-    foundData:Foundreducer
+    foundData:Foundreducer,
 })
 
 const composeEnhansers = window._REDUX_DEVTOOLS_EXTENTION_COMPOSE_ || compose;
