@@ -1,8 +1,12 @@
 .main-div{
+
+   
     display: flex;
+    margin: 5%;
     width: 90%;
     margin: auto;
     justify-content: space-around;
+
 }
 .filtering{
     width: 20%;
@@ -22,7 +26,7 @@ label{
 .sorting{  
     display: flex;
     width:100%;
- 
+
     justify-content: flex-end;
 }
 
