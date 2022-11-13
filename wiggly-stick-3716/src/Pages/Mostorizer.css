@@ -14,22 +14,43 @@
 }
 .box-2{
     display: grid;
-    gap: 50px;
-    grid-template-columns: repeat(3,300px);
-    grid-template-rows: repeat(7,350px);
+    /* gap: 50px; */
+    column-gap: 10px;
+    row-gap: 20px;
+    /* grid-template-columns: repeat(3,300px); */
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows: repeat(7,350px); */
   
     height: auto;
     width: 80%;
+    /* border: 2px solid black; */
+    margin-top: 20px;
 }
 .product-image{
-    width: 285px;
+    width: 70%;
 }
 .single-product{
     display: grid;
     justify-content: center;
     cursor: pointer;
+    overflow: hidden;
+    /* border: 3px solid red; */
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
   
 }
+
+
+.single_body{
+    /* border: 4px solid blue; */
+    padding: 5px 3rem 5px 3rem;
+    text-align: justify;
+    text-overflow: clip;}
+
+
+
+
 .box1 input{
     padding: 100%;
 }
@@ -49,5 +70,85 @@ input[type = "checkbox"]{
    text-align: center;
 }
 
+
+
+
+
+/* Responsive */
+
   
-       
+@media only screen and (max-width: 1320px) {
+    /* .box-2{
+        grid-template-columns: repeat(2, 200px);
+        margin: auto;
+    } */
+
+    .single_body{
+        padding: 5px 4rem 5px 4rem;
+    }
+    
+}
+@media only screen and (max-width: 1110px) {
+    
+
+    .single_body{
+        padding: 5px 5rem 5px 5rem;
+    }
+    
+}
+@media only screen and (max-width: 1025px) {
+    
+
+    .single_body{
+        padding: 5px 6rem 5px 6rem;
+    }
+    
+}
+@media only screen and (max-width: 837px) {
+    
+
+    .single_body{
+        padding: 5px 7rem 5px 7rem;
+    }
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 821px) {
+    .box-2{
+        grid-template-columns: repeat(2,1fr);
+
+    }
+
+    .single_body{
+        padding: 5px 5rem 5px 5rem;
+    }
+
+}
+@media only screen and (max-width: 578px) {
+    .box-2{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    .single_body{
+        padding: 5px 3rem 5px 3rem;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .box-2{
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    .single_body{
+        padding: 5px 5rem 5px 5rem;
+        text-align: center;
+    }
+
+    .box-2{
+        width: 50%;
+        margin: auto;
+    }
+}
