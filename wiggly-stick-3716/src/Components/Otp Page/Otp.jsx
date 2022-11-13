@@ -29,10 +29,20 @@ export const Otp = () => {
          }
     },[])
 
+
+ 
+    
     const handlePayment=()=>
     {
-        alert("Payment Successfull")
-        navigate('/')
+      
+            alert('Payment Successfully')
+            alert("Order Placed")
+            return navigate('/')
+      
+
+       
+
+        
         
     }
 
