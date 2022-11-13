@@ -33,6 +33,8 @@ const Checkout = ({cartItems}) => {
     showMenu(false);
   };
 
+  console.log(cartItems)
+
   return (
     <div className="checkout" id="checkout">
       {/* Checkout section 1 */}
