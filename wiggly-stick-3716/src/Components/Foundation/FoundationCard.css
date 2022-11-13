@@ -1,8 +1,12 @@
 .foundation-card{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+    grid-template-columns: repeat(auto-fit, minmax(250, 3fr));
     justify-items: center;
-    gap: 30px;
+    gap: 20px;
+    /* border: 3px solid yellow; */
+    padding: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
 }
 .offertype{
     display: flex;
