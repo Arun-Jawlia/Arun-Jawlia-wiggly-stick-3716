@@ -235,6 +235,180 @@ function MostorizerPage({ handleProducts }) {
 
         <Box className="box-2">
           {data.map((items) => (
+            <div>
+              <Accordion
+                display={"grid"}
+                gap={"20px"}
+                defaultIndex={[0]}
+                allowMultiple
+              >
+                <AccordionItem>
+                  <h2>
+                    <AccordionButton border={"2px solid black"}>
+                      <Box flex="1" textAlign="left">
+                        Gender
+                      </Box>
+                      <AccordionIcon />
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel pb={4}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </AccordionPanel>
+                </AccordionItem>
+                <AccordionItem>
+                  <h2>
+                    <AccordionButton border={"2px solid black"}>
+                      <Box flex="1" textAlign="left">
+                        Brand
+                      </Box>
+                      <AccordionIcon />
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel pb={4}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </AccordionPanel>
+                </AccordionItem>
+                <AccordionItem>
+                  <h2>
+                    <AccordionButton border={"2px solid black"}>
+                      <Box flex="1" textAlign="left">
+                        Size
+                      </Box>
+                      <AccordionIcon />
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel pb={4}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </AccordionPanel>
+                </AccordionItem>
+                <AccordionItem>
+                  <h2>
+                    <AccordionButton border={"2px solid black"}>
+                      <Box flex="1" textAlign="left">
+                        Color
+                      </Box>
+                      <AccordionIcon />
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel pb={4}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </AccordionPanel>
+                </AccordionItem>
+                <AccordionItem>
+                  <h2>
+                    <AccordionButton border={"2px solid black"}>
+                      <Box flex="1" textAlign="left">
+                        Promotion
+                      </Box>
+                      <AccordionIcon />
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel pb={4}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </AccordionPanel>
+                </AccordionItem>
+                <AccordionItem>
+                  <h2>
+                    <AccordionButton border={"2px solid black"}>
+                      <Box flex="1" textAlign="left">
+                        Price
+                      </Box>
+                      <AccordionIcon />
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel pb={4}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </AccordionPanel>
+                </AccordionItem>
+                <AccordionItem>
+                  <h2>
+                    <AccordionButton border={"2px solid black"}>
+                      <Box flex="1" textAlign="left">
+                        Price
+                      </Box>
+                      <AccordionIcon />
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel pb={4}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </AccordionPanel>
+                </AccordionItem>
+                <AccordionItem>
+                  <h2>
+                    <AccordionButton border={"2px solid black"}>
+                      <Box flex="1" textAlign="left">
+                        Store
+                      </Box>
+                      <AccordionIcon />
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel pb={4}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </AccordionPanel>
+                </AccordionItem>
+                <AccordionItem>
+                  <h2>
+                    <AccordionButton border={"2px solid black"}>
+                      <Box flex="1" textAlign="left">
+                        Skin Type
+                      </Box>
+                      <AccordionIcon />
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel pb={4}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </AccordionPanel>
+                </AccordionItem>
+                <AccordionItem>
+                  <h2>
+                    <AccordionButton border={"2px solid black"}>
+                      <Box flex="1" textAlign="left">
+                        Ingredient Preferences
+                      </Box>
+                      <AccordionIcon />
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel pb={4}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </AccordionPanel>
+                </AccordionItem>
+              </Accordion>
+            </div>
+          ))}
+        </Box>
+
+        <Box className="box-2">
+          {data.map((items) => (
             <Box className="single-product" key={items.id}>
               <HoverEffect
                 items={items}
@@ -243,7 +417,7 @@ function MostorizerPage({ handleProducts }) {
                 handleProducts={handleProducts}
               />
               <Link to={`/products/${items.id}`}>
-                <div className="single_body" >
+                <div className="single_body">
                   <h3 style={{ fontWeight: "bolder" }}>{items.brand}</h3>
                   <h2>{items.title}</h2>
                   <h2 style={{ fontWeight: "bolder" }}>Rs.{items.price}</h2>

@@ -1,12 +1,13 @@
 import { LockIcon, StarIcon } from "@chakra-ui/icons";
 import React from "react";
+import { Link } from "react-router-dom";
 import "./FoundationCard.css";
 import styles from "./FoundationCard.css";
 const FoundationCard = ({ product }) => {
   //let showData = JSON.parse(localStorage.getItem("showdata"));
    
   const handleProductDetail = () => {
-    console.log(product);
+    //console.log(product);
     localStorage.setItem("showdata",JSON.stringify(product));
     // navigate
   };
@@ -14,8 +15,12 @@ const FoundationCard = ({ product }) => {
     <div className="foundation-card" onClick={handleProductDetail}>
       <div>
         <div className="hover-animation">
-          <img src={product.image2} alt="" className="front-image" />
-          <img src={product.image1} alt="" className="back-image" />
+          <Link to={`/foundation/${product.id}`}>
+            <div>
+              <img src={product.image2} alt="" className="front-image" />
+              <img src={product.image1} alt="" className="back-image" />
+            </div>
+          </Link>
           <div className="overlay overlay-bottom">
             <div className="text">
               <div>
@@ -54,13 +59,23 @@ const FoundationCard = ({ product }) => {
             )}
           </div>
         </div>
-        <div className="brand" style={{ fontWeight: "bold", fontSize: "13px" }}>
-          {product.brand}
-        </div>
-        <div className="title">{product.title}</div>
-        <div className="price" style={{ fontWeight: "bold", fontSize: "13px" }}>
-          Rs.{product.price}
-        </div>
+        <Link to={`/foundation/${product.id}`}>
+          <div className="info">
+            <div
+              className="brand"
+              style={{ fontWeight: "bold", fontSize: "13px" }}
+            >
+              {product.brand}
+            </div>
+            <div className="title">{product.title}</div>
+            <div
+              className="price"
+              style={{ fontWeight: "bold", fontSize: "13px" }}
+            >
+              Rs.{product.price}
+            </div>
+          </div>
+        </Link>
       </div>
     </div>
   );

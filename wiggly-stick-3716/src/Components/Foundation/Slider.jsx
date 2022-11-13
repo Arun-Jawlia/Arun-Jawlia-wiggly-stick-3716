@@ -14,6 +14,7 @@ import "./Slider.css";
 //    </div>
 
 import { useState } from "react";
+import { useSelector } from "react-redux";
 
 
 //     </>
@@ -23,31 +24,20 @@ import { useState } from "react";
 
 // export default Slider;
 function Slider({slides}) {
-    let Data = JSON.parse(localStorage.getItem("showdata"));
+ //   let Data = JSON.parse(localStorage.getItem("showdata"));
     //console.log(Data)
-    let data=  {
-    "id": "105",
-    "path": "SEPHORA / Sephora Collection / Makeup / Face Makeup / ",
-    "cur": "Face Foundation Cream",
-    "title": "Matte Perfection Powder Foundation - 21 Petal",
-    "offerType": "OFFER",
-    "brand": "SEPHORA COLLECTION",
-    "image1": "https://cdn07.nnnow.com/web-images/large/styles/5CC4W2M4YQC/1551249758723/1.jpg",
-    "image2": "https://cdn13.nnnow.com/web-images/large/styles/5CC4W2M4YQC/1617175487045/2.jpg",
-   
-    "color": ["rgb(224,183,146)", "rgb(204,167,127)"],
-    "size": ["7.5 gm"],
-    "price": 1500
-  };
+    const product = useSelector((state) => state.singleData);
+    console.log(product.image1);
+ 
   
-    const [showData, setShowData] = useState(data);
+    //const [showData, setShowData] = useState(data);
     const [current, setCurrent] = useState(0);
     const [slideData, setSlideData] = useState([
-      { image: showData.image1 },
-      { image: showData.image2},
+      { image: product.image1 },
+      { image: product.image2},
      
     ]);
- // const length = slides.length;
+//  const length = slides.length;
  console.log(slideData)
   const [length]=useState(slides.length)
   if (!Array.isArray(slides) || slides.length <= 0) {

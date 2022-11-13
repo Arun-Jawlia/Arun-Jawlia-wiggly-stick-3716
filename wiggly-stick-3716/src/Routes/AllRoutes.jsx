@@ -9,6 +9,7 @@ import MostorizerPage from '../Pages/MostorizerPage'
 import Singleitemshow from '../Pages/Singleitemshow'
 import FoundationPage from '../Pages/Foundation/FoundationPage'
 import Cart from '../Pages/Cart'
+import ProductShow from '../Components/Foundation/ProductShow'
 
 const AllRoutes = ({cartItems,handleProducts,handleRemove}) => {
   return (
@@ -26,7 +27,7 @@ const AllRoutes = ({cartItems,handleProducts,handleRemove}) => {
        
 
     </Routes>
-  )
+  );
 }
 
 export default AllRoutes
