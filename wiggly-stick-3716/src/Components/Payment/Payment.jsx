@@ -112,7 +112,7 @@ const Payment = ({cartItems}) => {
                       <label>CVV</label>
                     </div>
                     <div>
-                      <input type="number" />
+                      <input type="password" />
                     </div>
                   </div>
                   <div>
