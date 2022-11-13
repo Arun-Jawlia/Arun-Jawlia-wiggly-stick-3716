@@ -28,7 +28,7 @@ export const Login = () => {
 
      localStorage.setItem("emailverify", JSON.stringify(emailer));
 
-     navigate('/otp')
+     navigate('/')
   };
 
   const navigate = useNavigate();
