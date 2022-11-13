@@ -24,6 +24,11 @@ const AllRoutes = ({cartItems,handleProducts,handleRemove}) => {
         <Route path='/cart' element={<Cart cartItems = {cartItems} handleProducts = {handleProducts} handleRemove = {handleRemove} />}/>
         <Route path='/favourite' element={<h1>Favourite</h1>}/>
         <Route path = "/products/:productId" element = {<Singleitemshow handleProducts = {handleProducts} />}/>
+        <Route
+        path="/foundation/:foundationId"
+        element={<ProductShow handleProducts={handleProducts} />}
+      />
+
        
 
     </Routes>
