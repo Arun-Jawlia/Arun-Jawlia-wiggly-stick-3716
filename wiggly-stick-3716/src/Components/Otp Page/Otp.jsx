@@ -101,7 +101,7 @@ export const Otp = () => {
               <Center>
                 <FormControl isRequired>
                   <FormLabel fontSize='8px' color='gray.400' >Enter OTP</FormLabel>
-                  <Input placeholder="OTP" />
+                  <Input placeholder="OTP" type='password' />
                 </FormControl>
               </Center>
             </div>
