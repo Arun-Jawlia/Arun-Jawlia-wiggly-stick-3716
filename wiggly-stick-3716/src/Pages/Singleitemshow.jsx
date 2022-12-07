@@ -19,7 +19,7 @@ function Singleitemshow({handleProducts}) {
 
    const fetchProductDetail  = async() =>{
      const response = await axios
-     .get(`http://localhost:8080/products/${productId}`)
+     .get(`https://mock-server-app-working.onrender.com/products/${productId}`)
      .catch((e)=>{
          console.log(e);
         })

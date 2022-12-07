@@ -9,7 +9,7 @@ export const getDatarequest = () =>{
 
 export const getData = (queryParams) => (dispatch) =>{
    dispatch(getDatarequest());
-   return axios.get("http://localhost:8080/products",queryParams)
+   return axios.get("https://mock-server-app-working.onrender.com/products",queryParams)
    .then((r)=>{
     dispatch({
         type:types.GET_DATA_SUCCESS,
@@ -50,7 +50,7 @@ const  getProductFailure=()=>{
 const getProductsData =(queryParams)=>(dispatch) => {
   dispatch(getProductRequest);
   return axios
-    .get("http://localhost:8080/Face_Foundation_Cream",queryParams)
+    .get("https://mock-server-app-working.onrender.com/Face_Foundation_Cream",queryParams)
     .then((r) => {
       dispatch({
         type: types.GET_PRODUCTS_SUCCESS,

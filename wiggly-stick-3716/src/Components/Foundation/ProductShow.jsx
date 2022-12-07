@@ -44,7 +44,7 @@ const ProductShow = ({ handleProducts }) => {
 
   const fetchProductDetail = async () => {
     const response = await axios
-      .get(`http://localhost:8080/Face_Foundation_Cream/${foundationId}`)
+      .get(`https://mock-server-app-working.onrender.com/Face_Foundation_Cream/${foundationId}`)
       .catch((e) => {
         console.log(e);
         // setShowData({response.data.image1})
