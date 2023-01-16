@@ -10,6 +10,7 @@ import { useLocation, useSearchParams } from "react-router-dom";
 import { getProductsData } from "../../Redux/Action";
 import Navbar from "../../Components/Navbar/Navbar";
 import Product_Page_Footer from "../../Components/Product_Page_Footer";
+import LargeWithLogoCentered from "../../Components/footer/footer";
  
 const FoundationPage=()=>{
    const dispatch = useDispatch();
@@ -140,7 +141,7 @@ const FoundationPage=()=>{
           </div>
         </div>
       </div>
-      <div><Product_Page_Footer/></div>
+      <div><LargeWithLogoCentered/></div>
       </>
     );
 }

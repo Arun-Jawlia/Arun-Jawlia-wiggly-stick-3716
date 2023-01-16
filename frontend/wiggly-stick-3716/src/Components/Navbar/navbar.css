@@ -191,11 +191,11 @@
 }
 
 #searchicon {
-    height: 16px;
+    height: 8px;
     cursor: pointer;
-    margin-top: 7px;
-    width: 15px;
-    margin-right: 5px;
+    /* margin-top: 7px; */
+    width: -10px;
+    
 
 }
 

@@ -3,6 +3,10 @@ import React,{useState} from "react";
 import AllRoutes from "./Routes/AllRoutes";
 import { Alert } from "react-bootstrap";
 import { useSelector } from 'react-redux';
+import Login from "./Components/Auth/Login";
+import { Signup } from "./Components/Login/Signup";
+import SignupCard from "./Components/Auth/Signup";
+import LargeWithLogoCentered from "./Components/footer/footer";
 
 function App() {
   const [cartItems,setCartItems] = useState([]);
@@ -49,7 +53,10 @@ function App() {
        
       />
       
-     
+     {/* <Login/> */}
+     {/* <SignupCard/> */}
+
+     {/* <LargeWithLogoCentered/> */}
     </div>
   );
 }
