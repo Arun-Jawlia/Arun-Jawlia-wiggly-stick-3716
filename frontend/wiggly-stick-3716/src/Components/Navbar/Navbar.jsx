@@ -2,15 +2,17 @@ import React from "react";
 import "./navbar.css";
 import { Link } from "react-router-dom";
 import myLogo from "../../assets/beautyHubLogo.png";
-import { BsFillPersonFill } from "react-icons/bs";
+import { BsFillPersonFill,BsSearch } from "react-icons/bs";
+import { Box, Heading } from "@chakra-ui/react";
 // I am not able to raise pull request
+
 
 const Navbar = () => {
   return (
     <div id="Navbar">
       <div id="navbaruppersection">
         <div id="logo">
-          <h1 style={{ fontWeight: 700, fontSize: "25px" }}>Beauty Hub</h1>
+          <Heading as="samp" style={{ fontWeight: 700, fontSize: "25px" }}>Beauty Hub</Heading>
         </div>
 
         {/* <!-- Check out Newest Arrivals top center text --> */}
@@ -58,11 +60,10 @@ const Navbar = () => {
       {/* <!-- Search Bar  --> */}
       <div id="headingsephora">
         <div>
-          <img
-            id="searchicon"
-            src="https://img.icons8.com/ios/344/search--v1.png"
-            alt=""
-          />
+          <Box mt="5px">
+          <BsSearch />
+          </Box>
+        
           <input
             type="text"
             name=""

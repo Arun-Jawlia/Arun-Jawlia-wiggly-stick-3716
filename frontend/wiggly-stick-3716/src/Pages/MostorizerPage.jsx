@@ -17,6 +17,7 @@ import {
 
 import Navbar from "../Components/Navbar/Navbar";
 import Scroll from "../Components/HOME/Scroll";
+import LargeWithLogoCentered from "../Components/footer/footer";
 
 function MostorizerPage({ handleProducts }) {
   const data = useSelector((state) => state.allData.productData);
@@ -269,7 +270,7 @@ function MostorizerPage({ handleProducts }) {
         />
         <input className="Post-email" type="submit" value="SUBSCRIBE" />
       </Box>
-      <Product_Page_Footer />
+     <LargeWithLogoCentered/>
     </>
   );
 }
